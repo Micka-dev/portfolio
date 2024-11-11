@@ -1,0 +1,30 @@
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &_img {
+    border: #484848 solid 1px;
+    width: 100px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: #191919;
+
+    &:hover {
+      background-color: #2a2a2a;
+    }
+  }
+  &_title {
+    margin-bottom: 50px;
+    color: #eeeeee;
+  }
+
+  &_text {
+    margin-bottom: 100px;
+    max-width: 500px;
+  }
+}

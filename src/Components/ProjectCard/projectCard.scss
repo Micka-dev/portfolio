@@ -1,0 +1,65 @@
+.projectCard-container {
+  width: 100%;
+  border-radius: 25px;
+
+  @media (min-width: 768px) {
+    width: 45%;
+  }
+  @media (min-width: 1024px) {
+    width: 45%;
+  }
+  @media (min-width: 1280px) {
+    width: 29%;
+  }
+}
+
+.projectCard-container-activated {
+  // background-color: #313131;
+  // border: 1px solid red;
+
+  border: 2px solid #484848;
+}
+
+.projectCard {
+  padding: 20px 20px;
+  background-color: #191919;
+  border-radius: 25px;
+  border: #484848 solid 1px;
+  // Permet que l'ensemble des projectCard ont la même hauteur même si le texte est plus long por certaine
+  // height: 100%;
+
+  &:hover {
+    background-color: #2a2a2a;
+    color: white;
+    scale: 1.02;
+  }
+
+  &:active {
+    background-color: #313131;
+    border: 1px solid #606060;
+  }
+
+  &_activated {
+    // background-color: #313131;
+    background-color: red;
+  }
+
+  &_img {
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+  }
+
+  &_content {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  &_title {
+    margin-bottom: 10px;
+  }
+
+  &_text {
+    margin-bottom: 15px;
+  }
+}
