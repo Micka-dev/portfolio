@@ -1,0 +1,95 @@
+.works-carousel {
+  height: 255px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    height: 415px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+  }
+
+  &_slide {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    inset: 0;
+    animation: slideTransition 0.2s ease-in-out;
+
+    background-color: #191919;
+    // border: #3a3a3a solid 1px;
+    border: #484848 solid 1px;
+    box-sizing: border-box;
+    padding: 10px;
+
+    @media (min-width: 768px) {
+      border-radius: 25px;
+    }
+  }
+
+  @keyframes slideTransition {
+    from {
+      opacity: 0;
+      scale: 0.9;
+    }
+    to {
+      opacity: 1;
+      scale: 1;
+    }
+  }
+
+  .slideCounter {
+    color: transparent;
+    @media (min-width: 768px) {
+      color: #fff;
+      font-size: 24px;
+      position: absolute;
+      bottom: 25px;
+      margin: auto;
+    }
+  }
+
+  .btn {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    cursor: pointer;
+    transition: scale 0.1s ease-in-out;
+
+    &:hover {
+      scale: 1.4;
+    }
+
+    @media (min-width: 768px) {
+      height: 80px;
+      width: 45px;
+    }
+
+    &.arrowLeft {
+      position: absolute;
+      left: 10px;
+
+      @media (min-width: 768px) {
+        left: 25px;
+      }
+    }
+
+    &.arrowRight {
+      rotate: 180deg;
+      position: absolute;
+      right: 10px;
+
+      @media (min-width: 768px) {
+        right: 25px;
+      }
+    }
+  }
+}
