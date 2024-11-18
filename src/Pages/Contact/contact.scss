@@ -1,0 +1,254 @@
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  // margin-top: 30px;
+  margin: auto;
+  max-width: 300px;
+
+  @media (min-width: 425px) {
+    max-width: 90%;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 900px;
+  }
+
+  @media (min-width: 1024px) {
+    // gap: 50px;
+    max-width: 900px;
+  }
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+
+  @media (min-width: 768px) {
+    gap: 25px;
+  }
+
+  &_form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+    background-color: #191919;
+    border: #484848 solid 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #eeeeee;
+    width: 100%;
+
+    @media (min-width: 768px) {
+      border-radius: 25px;
+    }
+  }
+
+  &_input-field {
+    margin: 10px;
+    padding: 15px;
+    background-color: #2a2a2a;
+    border: #484848 solid 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: white;
+    height: 40px;
+    font-size: 0.8rem;
+
+    &:hover {
+      background-color: #313131;
+    }
+
+    @media (min-width: 768px) {
+      border-radius: 25px;
+      font-size: 1rem;
+    }
+  }
+
+  &_form-label {
+    padding: 5px 15px;
+  }
+}
+
+.bloc {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    gap: 50px;
+    flex-direction: row;
+  }
+
+  @media (min-width: 1024px) {
+    gap: 80px;
+    flex-direction: row;
+  }
+
+  &_first-part,
+  &_second-part {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+
+    @media (min-width: 768px) {
+      gap: 25px;
+    }
+  }
+  &_first-part {
+    @media (min-width: 768px) {
+      max-width: 35%;
+    }
+  }
+}
+
+textarea.contactForm_input-field {
+  margin: 10px;
+  height: 100px;
+  resize: vertical;
+
+  @media (min-width: 768px) {
+    height: 200px;
+  }
+}
+
+.box-button {
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px;
+  background-color: #191919;
+  border: #484848 solid 1px;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  width: 100%;
+  background-color: #191919;
+  border: #484848 solid 1px;
+
+  &:active {
+    background-color: #313131;
+    border: 2px solid #606060;
+  }
+
+  @media (min-width: 768px) {
+    border-radius: 50px;
+    margin-bottom: 60px;
+  }
+}
+
+.submit-button {
+  padding: 15px;
+  background-color: #2a2a2a;
+  color: #b4b4b4;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1.3rem;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    border-radius: 50px;
+  }
+}
+
+.submit-button:hover {
+  background-color: #2a2a2a;
+  color: #eeeeee;
+}
+
+.required {
+  color: rgb(203, 34, 34);
+}
+
+.error {
+  color: rgb(203, 34, 34);
+  font-size: 14px;
+  margin: 10px;
+  text-align: right;
+}
+
+.confirmation-message {
+  margin-bottom: 40px;
+  color: #22c55ecc;
+  text-align: center;
+}
+
+.contact-links {
+  &_main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      gap: 30px;
+    }
+
+    @media (min-width: 1024px) {
+      flex-direction: row;
+    }
+  }
+
+  &_box-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #191919;
+    border: #484848 solid 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #b4b4b4;
+    height: 120px;
+    font-size: 1rem;
+    cursor: pointer;
+
+    @media (min-width: 1024px) {
+      width: 300px;
+    }
+
+    @media (min-width: 1440px) {
+      width: 400px;
+    }
+
+    &:active {
+      background-color: #313131;
+      border: 2px solid #606060;
+    }
+
+    @media (min-width: 768px) {
+      border-radius: 25px;
+    }
+  }
+
+  &_link-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+
+    &:hover {
+      background-color: #2a2a2a;
+      color: #eeeeee;
+    }
+
+    @media (min-width: 768px) {
+      border-radius: 25px;
+    }
+  }
+
+  &_icon {
+    margin-right: 20px;
+    font-size: 30px;
+  }
+}
