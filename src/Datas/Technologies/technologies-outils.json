@@ -1,0 +1,158 @@
+[
+  {
+    "id": "1",
+    "name": "React",
+    "source": "/Assets/Logos/React.png"
+  },
+  {
+    "id": "2",
+    "name": "Redux",
+    "source": "/Assets/Logos/Redux.png"
+  },
+  {
+    "id": "3",
+    "name": "React Router",
+    "source": "/Assets/Logos/React-Router.png"
+  },
+  {
+    "id": "4",
+    "name": "Redux Toolkit",
+    "source": "/Assets/Logos/Redux Toolkit.png"
+  },
+
+  {
+    "id": "5",
+    "name": "SASS",
+    "source": "/Assets/Logos/SASS.png"
+  },
+  {
+    "id": "6",
+    "name": "Node js",
+    "source": "/Assets/Logos/Node.js.png"
+  },
+  {
+    "id": "7",
+    "name": "NPM",
+    "source": "/Assets/Logos/NPM.png"
+  },
+  {
+    "id": "8",
+    "name": "MongoDB",
+    "source": "/Assets/Logos/MongoDB.png"
+  },
+  {
+    "id": "9",
+    "name": "Express",
+    "source": "/Assets/Logos/Express.png"
+  },
+  {
+    "id": "10",
+    "name": "Javascript",
+    "source": "/Assets/Logos/Javascript.png"
+  },
+  {
+    "id": "11",
+    "name": "Html5",
+    "source": "/Assets/Logos/Html5.png"
+  },
+  {
+    "id": "12",
+    "name": "CSS3",
+    "source": "/Assets/Logos/CSS3.png"
+  },
+  {
+    "id": "13",
+    "name": "GitHub",
+    "source": "/Assets/Logos/GitHub.png"
+  },
+  {
+    "id": "14",
+    "name": "Git",
+    "source": "/Assets/Logos/Git.png"
+  },
+  {
+    "id": "15",
+    "name": "Yarn",
+    "source": "/Assets/Logos/Yarn.png"
+  },
+  {
+    "id": "16",
+    "name": "VSCode",
+    "source": "/Assets/Logos/VSCode.png"
+  },
+  {
+    "id": "17",
+    "name": "Figma",
+    "source": "/Assets/Logos/Figma.png"
+  },
+  {
+    "id": "18",
+    "name": "Axios",
+    "source": "/Assets/Logos/Axios.png"
+  },
+  {
+    "id": "19",
+    "name": "JSON",
+    "source": "/Assets/Logos/JSON.png"
+  },
+  {
+    "id": "20",
+    "name": "Swagger",
+    "source": "/Assets/Logos/Swagger.png"
+  },
+  {
+    "id": "21",
+    "name": "Redux DevTools",
+    "source": "/Assets/Logos/Redux DevTools.png"
+  },
+  {
+    "id": "22",
+    "name": "FontAwesome",
+    "source": "/Assets/Logos/FontAwesome.png"
+  },
+  {
+    "id": "23",
+    "name": "/Code Pen",
+    "source": "/Assets/Logos/Code Pen.png"
+  },
+  {
+    "id": "24",
+    "name": "Prettier",
+    "source": "/Assets/Logos/Prettier.png"
+  },
+  {
+    "id": "25",
+    "name": "EsLint",
+    "source": "/Assets/Logos/EsLint.png"
+  },
+  {
+    "id": "26",
+    "name": "Notion",
+    "source": "/Assets/Logos/Notion.png"
+  },
+  {
+    "id": "27",
+    "name": "Feedly",
+    "source": "/Assets/Logos/Feedly.png"
+  },
+  {
+    "id": "28",
+    "name": "Wave",
+    "source": "/Assets/Logos/Wave.png"
+  },
+  {
+    "id": "29",
+    "name": "Lighthouse",
+    "source": "/Assets/Logos/Lighthouse.png"
+  },
+  {
+    "id": "30",
+    "name": "GTmetrix",
+    "source": "/Assets/Logos/GTmetrix.png"
+  },
+  {
+    "id": "31",
+    "name": "W3C",
+    "source": "/Assets/Logos/W3C.png"
+  }
+]
