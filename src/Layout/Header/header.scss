@@ -2,12 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 30px;
 
   @media (min-width: 768px) {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 50px;
   }
 
   //   &_logo {
@@ -20,10 +20,8 @@
 
   &_nav {
     display: flex;
-    gap: 15px;
-    // font-size: 12px;
+    gap: 10px;
     background-color: #191919;
-    // border: #3a3a3a solid 1px;
     border: #484848 solid 1px;
     padding: 10px 15px;
     border-radius: 50px;
@@ -39,19 +37,23 @@
   }
 
   &_link {
-    width: 70px;
-    height: 40px;
+    width: 61px;
+    height: 35px;
     border-radius: 25px;
     color: #b4b4b4;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (min-width: 768px) {
+      width: 70px;
+      height: 40px;
+    }
   }
 
   &_link:hover {
-    // background-color: #24238d;
     background-color: #2a2a2a;
-    color: white;
+    color: #eeeeee;
   }
 
   &_link:active {
@@ -62,16 +64,12 @@
   &_link-activated {
     color: #eeeeee;
     background-color: #313131;
-    // border: 1px solid #606060;
     border: 1px solid #484848;
-    // border: 1px solid #3a3a3a;
   }
 }
 
 .activated {
   color: #eeeeee;
   background-color: #313131;
-  // border: 1px solid #606060;
   border: 1px solid #484848;
-  // border: 1px solid #3a3a3a;
 }
