@@ -1,0 +1,22 @@
+.error {
+  &-container {
+    box-sizing: border-box;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-title {
+    color: #eeeeee;
+    font-size: 150px;
+    margin: 20px;
+  }
+
+  &-text {
+    font-size: 24px;
+    color: rgb(203, 34, 34);
+    margin: 30px;
+  }
+}
