@@ -1,0 +1,136 @@
+strong {
+  font-weight: 900;
+}
+
+.aboutDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  @media (min-width: 768px) {
+    gap: 30px;
+    margin: 0 50px;
+  }
+
+  &_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    @media (min-width: 768px) {
+      gap: 50px;
+    }
+
+    @media (min-width: 1024px) {
+      flex-direction: row;
+      align-items: start;
+    }
+  }
+
+  &_content {
+    background-color: #191919;
+    border: #484848 solid 1px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 100%;
+
+    @media (min-width: 768px) {
+      gap: 5px;
+      border-radius: 25px;
+    }
+  }
+
+  &_title {
+    color: #eeeeee;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  &_text {
+    padding: 0 20px 20px;
+    @media (min-width: 1440px) {
+      width: 90%;
+    }
+  }
+
+  .summary-container_img-wrapper {
+    &.outside {
+      display: block;
+
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
+
+    &.inside {
+      display: none;
+
+      @media (min-width: 768px) {
+        display: block;
+        padding: 10px;
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .summary-container_img {
+    padding: 10px;
+    border-radius: 25px;
+    margin: 0;
+    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+    width: 200px;
+
+    @media (min-width: 768px) {
+      min-width: 260px;
+      max-height: 350px;
+
+      float: left;
+      margin-right: 20px;
+    }
+
+    @media (min-width: 1440px) {
+      margin-left: 100px;
+      margin-right: 40px;
+    }
+  }
+
+  .technologies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+
+    @media (min-width: 768px) {
+      border-radius: 25px;
+      padding: 20px;
+      gap: 30px;
+    }
+
+    @media (min-width: 1024px) {
+      border-radius: 25px;
+      padding: 20px;
+    }
+  }
+
+  .technology {
+    height: 20px;
+
+    @media (min-width: 768px) {
+      height: 30px;
+    }
+
+    @media (min-width: 1024px) {
+      height: 40px;
+    }
+  }
+}
