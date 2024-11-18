@@ -2,22 +2,25 @@ import './home.scss'
 import Summary from '../../Components/Summary/Summary.jsx'
 import ProjectCard from '../../Components/ProjectCard/ProjectCard.jsx'
 import works from '../../Datas/Works/works.json'
+import intro from '../../Datas/Intro/intro.json'
 
 function Home() {
   return (
     <div>
-      <Summary />
-      <h3 className="project-title">Projets Réalisés</h3>
+      <Summary intro={intro.intro} />
+      <h3 className="project-title">Projets à l'honneur</h3>
       <div className="projectCards-container">
-        {works.map((work) => (
-          <ProjectCard
-            key={work.id}
-            id={work.id}
-            cover={work.cover}
-            title={work.title}
-            text={work.text}
-          />
-        ))}
+        {works
+          .filter((work) => Number(work.id) < 3)
+          .map((work) => (
+            <ProjectCard
+              key={work.id}
+              id={work.id}
+              cover={work.cover}
+              title={work.title}
+              text={work.text}
+            />
+          ))}
       </div>
     </div>
   )

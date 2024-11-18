@@ -1,18 +1,31 @@
 .project-title {
   text-align: center;
+  padding-top: 50px;
+  border-top: 2px solid #ccc;
+  width: 80%;
+  margin: auto;
   margin-bottom: 50px;
+  color: #eeeeee;
+
+  @media (min-width: 768px) {
+    width: 760px;
+  }
 }
 
 .projectCards-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  gap: 50px;
-  margin-bottom: 100px;
+  gap: 20px;
 
   @media (min-width: 768px) {
     flex-direction: row;
+    gap: 40px;
+  }
+
+  @media (min-width: 1024px) {
+    gap: 60px;
   }
 }
