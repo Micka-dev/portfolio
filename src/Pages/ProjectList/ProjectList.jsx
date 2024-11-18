@@ -4,7 +4,8 @@ import ProjectCard from '../../Components/ProjectCard/ProjectCard.jsx'
 
 function ProjectList() {
   return (
-    <section>
+    <section className="projectList_main-container">
+      <h2 className="projectList-title">Liste des projets</h2>
       <div className="projectCards-container_projects">
         {works.map((work) => (
           <ProjectCard

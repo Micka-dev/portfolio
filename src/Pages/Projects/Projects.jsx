@@ -2,7 +2,6 @@ import './projects.scss'
 
 import works from '../../Datas/Works/works.json'
 
-import ProjectCard from '../../Components/ProjectCard/ProjectCard.jsx'
 import Gallery from '../../Components/Gallery/Gallery.jsx'
 
 import Error from '../Error/Error.jsx'
@@ -10,6 +9,7 @@ import Error from '../Error/Error.jsx'
 import { useParams } from 'react-router-dom'
 import ProjectDetails from '../../Components/ProjectDetails/ProjectDetails.jsx'
 import ProjectLinks from '../../Components/ProjectLinks/ProjectLinks.jsx'
+import ProjectList from '../ProjectList/ProjectList.jsx'
 
 function Projects() {
   const { workId } = useParams()
@@ -23,17 +23,8 @@ function Projects() {
   console.log('workSelected', workSelected)
 
   return (
-    <section>
-      <div className="projectCards-container_projects">
-        {works.map((work) => (
-          <ProjectCard
-            key={work.id}
-            id={work.id}
-            cover={work.cover}
-            title={work.title}
-          />
-        ))}
-      </div>
+    <section className="projectList_main-container">
+      <ProjectList />
 
       <div className="project-header">
         <h1 className="project-header_title">{workSelected.title}</h1>
@@ -48,11 +39,9 @@ function Projects() {
       />
 
       <ProjectDetails
-        key={workSelected.id}
-        id={workSelected.id}
         description={workSelected.description}
         learned={workSelected.learned}
-        stack={workSelected.stack}
+        stacks={workSelected.stacks}
       />
     </section>
   )
