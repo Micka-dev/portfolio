@@ -7,12 +7,16 @@ function ProjectLinks({ webSite, siteCode }) {
   return (
     <div className="projectLinks">
       <div className="projectLinks_container">
-        <NavLink to={webSite}>
-          <i className="projectLinks_icon fa-solid fa-globe"></i>
-        </NavLink>
-        <NavLink to={siteCode}>
-          <i className="projectLinks_icon fa-brands fa-github"></i>
-        </NavLink>
+        {webSite ? (
+          <NavLink to={webSite}>
+            <i className="projectLinks_icon fa-solid fa-globe"></i>
+          </NavLink>
+        ) : null}
+        {siteCode ? (
+          <NavLink to={siteCode}>
+            <i className="projectLinks_icon fa-brands fa-github"></i>
+          </NavLink>
+        ) : null}
       </div>
     </div>
   )
