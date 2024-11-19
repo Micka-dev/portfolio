@@ -46,7 +46,7 @@ function About() {
               className="technology"
               key={tech.id}
               src={tech.source}
-              alt={tech.name}
+              alt={process.env.PUBLIC_URL + tech.name}
             />
           ))}
         </div>
