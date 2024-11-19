@@ -31,7 +31,7 @@ function Projects() {
         <p className="project-header_text">{workSelected.text}</p>
       </div>
 
-      <Gallery pictures={workSelected.pictures} />
+      <Gallery pictures={process.env.PUBLIC_URL + workSelected.pictures} />
 
       <ProjectLinks
         webSite={workSelected.webSite}
@@ -41,7 +41,7 @@ function Projects() {
       <ProjectDetails
         description={workSelected.description}
         learned={workSelected.learned}
-        stacks={workSelected.stacks}
+        stacks={process.env.PUBLIC_URL + workSelected.stacks}
       />
     </section>
   )

@@ -11,7 +11,7 @@ function ProjectList() {
           <ProjectCard
             key={work.id}
             id={work.id}
-            cover={work.cover}
+            cover={process.env.PUBLIC_URL + work.cover}
             title={work.title}
           />
         ))}
