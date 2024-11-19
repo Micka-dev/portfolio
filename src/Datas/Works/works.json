@@ -13,7 +13,7 @@
 
     "learned": "Dans ce projet, j'ai travaillé sur le développement front-end d’une application bancaire en utilisant <strong>React</strong>, <strong>Redux</strong> et <strong>Redux Toolkit</strong> pour créer une expérience utilisateur dynamique et réactive.<br><br>Ma mission principale a été d'intégrer le front-end avec le back-end via des appels API en gérant l'assynchrone avec des <strong>thunks</strong>. J'ai écrit des appels à l'<strong>API REST</strong> pour connecter les deux parties de l'application, assurant une communication fluide entre le client et le serveur.<br><br>J'ai utilisé React pour développer <strong>l'interface utilisateur</strong> de l'application bancaire, en me concentrant sur la création d'un <strong>tableau de bord</strong> complet et <strong>responsive</strong> pour les utilisateurs. <br><br>J'ai utilisé <strong>Redux Toolkit</strong> pour gérer les données de l'application notamment en créant des <strong>slices</strong>. Cela m'a permis de maintenir un état global cohérent à travers l'application.<br><br>Pour définir les points d'accès de l'API et modéliser les interactions avec les données des transactions, j'ai utiliser <strong>Swagger</strong>. <br><br>J'ai utilisé <strong>Node.js</strong> pour exécuter le code JavaScript côté serveur. Cela m'a donné une expérience pratique de la gestion d'une application <strong>full-stack</strong>.",
 
-    "cover": "/Assets/Argent-bank/Argent-Bank.webp",
+    "cover": "portfolio/Assets/Argent-bank/Argent-Bank.webp",
 
     "pictures": [
       "/Assets/Argent-bank/argent-bank.webp",
@@ -48,7 +48,7 @@
 
     "learned": "Dans ce projet, j’ai implémenté le front-end d’une application en utilisant <strong>React</strong> et <strong>React Router</strong> pour créer une expérience utilisateur moderne et réactive. .<br></br>J’ai travaillé sur la logique de présentation des données et les composants React, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur.  <br></br> J’ai utilisé React Router pour configurer la navigation entre les différentes pages de l'application. Cela m’a permis de comprendre comment gérer efficacement le <strong>routage</strong> dans une application web moderne. <br></br>Le projet était exclusivement concentré sur le développement front-end, en se basant sur les maquettes <strong>Figma</strong> fournies et en utilisant des données simulées extraites d'un fichier JSON. <br></br>J’ai initialisé le projet avec Create React App, un outil qui simplifie la configuration initiale d'une application React. J’ai également utilisé <strong>Node.js</strong> pour exécuter du code JavaScript en dehors du navigateur. .<br></br>J’ai utilisé  <strong>SASS</strong> pour gérer le CSS et implémenté des <strong>animations CSS</strong> pour améliorer l'expérience utilisateur comme un <strong>carrousel</strong> bouclant à l'infini. <br></br>L’ensemble de ces compétences me permet de créer des applications web interactives et visuellement attrayantes, très demandées dans l'industrie du développement web.",
 
-    "cover": "/Assets/Kasa/kasa.webp",
+    "cover": "portfolio/Assets/Kasa/kasa.webp",
 
     "pictures": [
       "/Assets/Kasa/kasa.webp",
