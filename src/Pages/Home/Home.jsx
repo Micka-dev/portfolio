@@ -1,10 +1,11 @@
 import './home.scss'
 import Summary from '../../Components/Summary/Summary.jsx'
 import ProjectCard from '../../Components/ProjectCard/ProjectCard.jsx'
-import works from '../../Datas/Works/works.json'
+// import works from '../../Datas/Works/works.json'
 import intro from '../../Datas/Intro/intro.json'
 
 function Home() {
+  const works = require('../../Datas/Works/works.json')
   return (
     <div>
       <Summary intro={intro.intro} />
@@ -16,7 +17,7 @@ function Home() {
             <ProjectCard
               key={work.id}
               id={work.id}
-              cover={work.cover}
+              cover={process.env.PUBLIC_URL + work.cover}
               title={work.title}
               text={work.text}
             />
