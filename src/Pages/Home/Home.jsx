@@ -1,11 +1,11 @@
 import './home.scss'
 import Summary from '../../Components/Summary/Summary.jsx'
 import ProjectCard from '../../Components/ProjectCard/ProjectCard.jsx'
-// import works from '../../Datas/Works/works.json'
+import works from '../../Datas/Works/works.json'
 import intro from '../../Datas/Intro/intro.json'
 
 function Home() {
-  const works = require('../../Datas/Works/works.json')
+  // const works = require('../../Datas/Works/works.json')
   return (
     <div>
       <Summary intro={intro.intro} />
