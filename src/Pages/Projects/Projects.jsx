@@ -31,7 +31,12 @@ function Projects() {
         <p className="project-header_text">{workSelected.text}</p>
       </div>
 
-      <Gallery pictures={process.env.PUBLIC_URL + workSelected.pictures} />
+      {/* <Gallery pictures={workSelected.pictures} /> */}
+      <Gallery
+        pictures={workSelected.pictures.map(
+          (picture) => process.env.PUBLIC_URL + picture
+        )}
+      />
 
       <ProjectLinks
         webSite={workSelected.webSite}
@@ -41,7 +46,10 @@ function Projects() {
       <ProjectDetails
         description={workSelected.description}
         learned={workSelected.learned}
-        stacks={process.env.PUBLIC_URL + workSelected.stacks}
+        // stacks={workSelected.stacks}
+        stacks={workSelected.stacks.map(
+          (stack) => process.env.PUBLIC_URL + stack
+        )}
       />
     </section>
   )
