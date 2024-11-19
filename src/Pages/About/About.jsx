@@ -4,7 +4,7 @@ import './about.scss'
 import about from '../../Datas/About/about.json'
 import technologies from '../../Datas/Technologies/technologies-outils.json'
 
-import photoProfil from '../../Assets/Micka.png'
+import photoProfil from '../../Assets/Micka.webp'
 
 function About() {
   console.log(about)

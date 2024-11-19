@@ -1,5 +1,5 @@
 import './summary.scss'
-import photoProfil from '../../Assets/Micka.png'
+import photoProfil from '../../Assets/Micka.webp'
 import { Link } from 'react-router-dom'
 
 function Summary({ intro }) {
