@@ -7,7 +7,8 @@ import ArrowLeft from '../../Assets/Arrow/ArrowLeft.svg'
 
 function Gallery({ pictures }) {
   const [currentPicture, setCurrentPicture] = useState(0)
-  console.log('pictures', pictures)
+  const [touchStartX, setTouchStartX] = useState(0)
+  const [touchEndX, setTouchEndX] = useState(0)
 
   const nextSlide = () => {
     setCurrentPicture((currentPicture + 1) % pictures.length)
@@ -22,6 +23,21 @@ function Gallery({ pictures }) {
     setCurrentPicture(currentPicture - 1)
   }
 
+  const handleTouchStart = (e) => {
+    setTouchStartX(e.targetTouches[0].clientX)
+  }
+  const handleTouchMove = (e) => {
+    setTouchEndX(e.targetTouches[0].clientX)
+  }
+  const handleTouchEnd = () => {
+    if (touchStartX - touchEndX > 50) {
+      nextSlide()
+    }
+    if (touchStartX - touchEndX < -50) {
+      previousSlide()
+    }
+  }
+
   const handleKeyPress = (event, action) => {
     if (event.key === 'Enter') {
       action()
@@ -30,7 +46,12 @@ function Gallery({ pictures }) {
 
   return (
     <>
-      <div className="carousel-container">
+      <div
+        className="carousel-container"
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
         <div className="works-carousel ">
           {pictures.map((picture, index) =>
             currentPicture === index ? (
