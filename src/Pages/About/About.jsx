@@ -45,8 +45,8 @@ function About() {
             <img
               className="technology"
               key={tech.id}
-              src={tech.source}
-              alt={process.env.PUBLIC_URL + tech.name}
+              src={process.env.PUBLIC_URL + tech.source}
+              alt={tech.name}
             />
           ))}
         </div>
