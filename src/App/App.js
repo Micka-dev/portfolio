@@ -4,20 +4,19 @@ import Router from '../Routers/Router/Router.jsx'
 
 import Header from '../Layout/Header/Header.jsx'
 import Footer from '../Layout/Footer/Footer.jsx'
-// import { BrowserRouter, HashRouter } from 'react-router-dom'
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 
 import '../index.css'
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Header />
       <main className="main-container">
         <Router />
       </main>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
