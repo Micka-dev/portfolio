@@ -10,6 +10,13 @@
 
 .projectCard-container-activated {
   border: 2px solid #484848;
+  background-color: #eeeeee;
+
+  &:hover {
+    color: inherit;
+    scale: 1.02;
+    padding: 2px;
+  }
 }
 
 .projectCard {
@@ -17,7 +24,6 @@
   background-color: #191919;
   border-radius: 10px;
   border: #484848 solid 1px;
-  // Permet que l'ensemble des projectCard ont la même hauteur même si le texte est plus long por certaine
   height: 100%;
 
   @media (min-width: 768px) {
@@ -35,15 +41,10 @@
     border: 1px solid #606060;
   }
 
-  &_activated {
-    background-color: #22c55ecc;
-  }
-
   &_img {
     width: 100%;
     border-radius: 10px;
     object-position: top;
-
     object-fit: cover;
     max-width: 100%;
   }

@@ -6,7 +6,7 @@ function ProjectCard({ id, cover, title, text }) {
     <NavLink
       className={({ isActive }) =>
         isActive
-          ? ' projectCard-container-activated projectCard_activated projectCard-container'
+          ? ' projectCard-container-activated projectCard-container'
           : ' projectCard-container'
       }
       to={`/projects/${id}`}
