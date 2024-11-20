@@ -46,13 +46,13 @@ function Gallery({ pictures }) {
 
   return (
     <>
-      <div
-        className="carousel-container"
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
-        onTouchEnd={handleTouchEnd}
-      >
-        <div className="works-carousel ">
+      <div className="carousel-container">
+        <div
+          className="works-carousel"
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={handleTouchEnd}
+        >
           {pictures.map((picture, index) =>
             currentPicture === index ? (
               <img
