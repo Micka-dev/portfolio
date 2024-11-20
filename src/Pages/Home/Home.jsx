@@ -5,7 +5,6 @@ import works from '../../Datas/Works/works.json'
 import intro from '../../Datas/Intro/intro.json'
 
 function Home() {
-  // const works = require('../../Datas/Works/works.json')
   return (
     <div>
       <Summary intro={intro.intro} />

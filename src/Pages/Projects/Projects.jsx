@@ -31,7 +31,6 @@ function Projects() {
         <p className="project-header_text">{workSelected.text}</p>
       </div>
 
-      {/* <Gallery pictures={workSelected.pictures} /> */}
       <Gallery
         pictures={workSelected.pictures.map(
           (picture) => process.env.PUBLIC_URL + picture
