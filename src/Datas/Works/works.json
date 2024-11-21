@@ -30,7 +30,10 @@
       "/Assets/Logos/React-Router.png",
       "/Assets/Logos/Redux Toolkit.png",
       "/Assets/Logos/Node.js.png",
-      "/Assets/Logos/Swagger.png"
+      "/Assets/Logos/Swagger.png",
+      "/Assets/Logos/Git.png",
+      "/Assets/Logos/GitHub.png",
+      "/Assets/Logos/VSCode.png"
     ]
   },
 
@@ -62,131 +65,151 @@
       "/Assets/Logos/React-Router.png",
       "/Assets/Logos/Node.js.png",
       "/Assets/Logos/SASS.png",
-      "/Assets/Logos/Figma.png"
+      "/Assets/Logos/Figma.png",
+      "/Assets/Logos/Git.png",
+      "/Assets/Logos/GitHub.png",
+      "/Assets/Logos/VSCode.png"
     ]
   },
   {
     "id": "3",
-    "title": "Kasa ",
+    "title": "Nina Carducci ",
 
-    "text": "Application immobilière de location d'appartements entre particuliers, utilisant les technologies React, Sass et React Router.",
+    "text": "Optimisation du référencement du site du photographe Nina Carducci et amélioration de sa performance et de son accessibilité",
 
-    "webSite": "",
+    "webSite": "https://micka-dev.github.io/Projet-8-Nina-Carducci/",
 
-    "siteCode": "https://github.com/Micka-dev/Projet-7-Kasa.git",
+    "siteCode": "https://github.com/Micka-dev/Projet-8-Nina-Carducci.git",
 
-    "description": "Le projet <strong>Kasa</strong> consiste en une <strong>refonte totale du site de location</strong> d'appartements entre particuliers, codé initialement en ASP.NET, il y a plus de dix ans. Sous l'impulsion de Laura, la CTO, l'objectif est de moderniser l'ensemble de l'application en adoptant une stack JavaScript complète : <strong>NodeJS</strong> pour le back-end et <strong>React</strong> pour le front-end. En l’absence d'un développeur back-end, la priorité est donnée au développement du front-end, avec l'utilisation de maquettes <strong>Figma </strong>responsives et d'un fichier <strong>JSON</strong> contenant les dernières annonces de logements pour construire les composants nécessaires. <br></br>Paul, le designer, a fourni les maquettes et les ressources nécessaires pour le design d'interface sur Figma, en insistant sur l'utilisation de <strong>composants réutilisables</strong> pour faciliter le travail sur React. Les fonctionnalités attendues incluent, entre autres, une galerie de photos avec défilement circulaire, des <strong>composants Collapse interactifs</strong> pour afficher et masquer les sections d'information, et un routage efficace avec <strong>React Router</strong> pour assurer une navigation fluide et gérer les erreurs de route. Le projet met également l'accent sur une mise en page cohérente utilisant <strong>Sass</strong> pour structurer le code CSS, les <strong>animations</strong> ainsi que la  création de composants spécifiques comme les bannières et les cartes des logements. Le tout en <strong>responsive</strong>.",
+    "description": " Le projet <strong> Nina Carducci</strong>  avait pour objectif d'<strong> identifier et de corriger les problèmes de chargement et de référencement</strong>  du site ninacarducci.github.io. Utilisant des outils tels que <strong> Lighthouse, GTmetrix et Wave</strong>, j'ai réalisé des <strong> audits complets</strong>  pour évaluer l'impact des modifications nécessaires sur le<strong>  SEO et l'accessibilité</strong>. <br></br>Les optimisations mises en œuvre incluaient la compression des images pour <strong> réduire le temps de chargement</strong>, la <strong> minification des fichiers CSS et JavaScript</strong>, et l'<strong> amélioration de l'accessibilité</strong>  en ajoutant des descriptions alternatives pour les images et en facilitant la <strong> navigation au clavier</strong>. De plus, j'ai intégré des<strong>  microdonnées Schema.org </strong> pour améliorer le référencement local et ajouté des <strong> balises meta</strong>  pour les réseaux sociaux, telles que les <strong> metas OpenGraph</strong>  pour Facebook et les <strong> Twitter Cards</strong>, afin de renforcer la présence du site sur les plateformes sociales. <br></br>Après avoir appliqué ces optimisations, j'ai créé un <strong> rapport d'optimisation détaillant les performances du site avant et après les modifications</strong>. Ce rapport incluait des captures d'écran des audits réalisés avec Lighthouse et Wave, ainsi que des explications sur les changements apportés et leur impact sur les performances et l'accessibilité du site. <br></br>L'objectif du projet était de dépasser une note de 90% dans les audits Lighthouse pour les performances, l'accessibilité et le SEO,  j’ai obtenu 100% avec une performance qui peut fluctuer en fonction de la bande passante. <strong> Grâce à ces optimisations, le site de Nina Carducci est devenu plus performant, mieux référencé et plus accessible</strong>, contribuant ainsi à améliorer l'expérience utilisateur et à accroître la visibilité pour ses clients potentiels. ",
 
-    "learned": "Dans ce projet, j’ai implémenté le front-end d’une application en utilisant <strong>React</strong> et <strong>React Router</strong> pour créer une expérience utilisateur moderne et réactive. .<br></br>J’ai travaillé sur la logique de présentation des données et les composants React, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur.  <br></br> J’ai utilisé React Router pour configurer la navigation entre les différentes pages de l'application. Cela m’a permis de comprendre comment gérer efficacement le <strong>routage</strong> dans une application web moderne. <br></br>Le projet était exclusivement concentré sur le développement front-end, en se basant sur les maquettes <strong>Figma</strong> fournies et en utilisant des données simulées extraites d'un fichier JSON. <br></br>J’ai initialisé le projet avec Create React App, un outil qui simplifie la configuration initiale d'une application React. J’ai également utilisé <strong>Node.js</strong> pour exécuter du code JavaScript en dehors du navigateur. .<br></br>J’ai utilisé  <strong>SASS</strong> pour gérer le CSS et implémenté des <strong>animations CSS</strong> pour améliorer l'expérience utilisateur comme un <strong>carrousel</strong> bouclant à l'infini. <br></br>L’ensemble de ces compétences me permet de créer des applications web interactives et visuellement attrayantes, très demandées dans l'industrie du développement web.",
+    "learned": "En travaillant sur ce projet, j'ai acquis une <strong>compréhension approfondie des différentes facettes de l'optimisation des performances web et du SEO</strong>. L'utilisation d'outils tels que <strong>Lighthouse</strong> et <strong>Wave</strong> m'a permis de <strong>diagnostiquer et d'identifier les points faibles du site</strong> en termes de <strong>vitesse de chargement</strong>, de <strong>structure du code</strong>, et d'<strong>accessibilité</strong>. J'ai appris à analyser les <strong>rapports d'audit</strong> et à interpréter les données fournies pour déterminer les priorités d'amélioration.<br></br>Un aspect clé que j'ai maîtrisé est l'<strong>optimisation des images</strong>, qui est souvent l'une des principales causes de lenteur de chargement des pages. En compressant les images et en utilisant des formats adaptés, j'ai pu significativement <strong>réduire le temps de chargement du site</strong>. De plus, j'ai travaillé sur l'amélioration de la structure du code en <strong>minifiant les fichiers CSS et JavaScript</strong>, ainsi qu'en éliminant les ressources inutiles, et <strong>en différant et étalant les chargements des fichiers dans le temps</strong> ce qui a conduit à une performance accrue du site.<br></br>L'importance de l'<strong>accessibilité</strong> a été une autre grande leçon de ce projet. J'ai appris à utiliser les bonnes pratiques pour rendre le site accessible à un plus large public, notamment en améliorant la <strong>navigation au clavier</strong>, en ajoutant des descriptions alternatives aux images, et en assurant une bonne lisibilité du contenu pour les utilisateurs ayant des besoins spécifiques. L'intégration des normes <strong>Schema.org</strong> pour le référencement local a également été une compétence précieuse, permettant de mieux cibler les recherches locales et d'<strong>améliorer la visibilité du site</strong>.<br></br>Enfin, la communication avec le client et la <strong>rédaction d'un rapport d'optimisation</strong> détaillant les modifications apportées et leur impact ont renforcé mes compétences en <strong>gestion de projet</strong>. J'ai appris à <strong>structurer et présenter des informations techniques</strong> de manière claire et compréhensible, aidant ainsi le client à voir la valeur ajoutée de mes services. <strong>Ce projet a non seulement enrichi mes compétences techniques, mais aussi mes capacités de communication et de gestion de projet</strong>.",
 
-    "cover": "/Assets/Kasa/kasa.webp",
+    "cover": "/Assets/Nina-Carducci/Nina.webp",
 
     "pictures": [
-      "/Assets/Kasa/kasa.webp",
-      "/Assets/Kasa/kasa1.webp",
-      "/Assets/Kasa/kasa2.webp",
-      "/Assets/Kasa/kasa3.webp"
+      "/Assets/Nina-Carducci/Nina.webp",
+      "/Assets/Nina-Carducci/Nina1.webp",
+      "/Assets/Nina-Carducci/Nina2.webp",
+      "/Assets/Nina-Carducci/Nina3.webp",
+      "/Assets/Nina-Carducci/Nina4.webp",
+      "/Assets/Nina-Carducci/Nina5.webp",
+      "/Assets/Nina-Carducci/Nina6.webp"
     ],
 
     "stacks": [
-      "/Assets/Logos/React.png",
-      "/Assets/Logos/React-Router.png",
-      "/Assets/Logos/Node.js.png",
-      "/Assets/Logos/SASS.png",
-      "/Assets/Logos/Figma.png"
+      "/Assets/Logos/GTmetrix.png",
+      "/Assets/Logos/Wave.png",
+      "/Assets/Logos/Lighthouse.png",
+      "/Assets/Logos/Javascript.png",
+      "/Assets/Logos/CSS3.png",
+      "/Assets/Logos/Html5.png",
+      "/Assets/Logos/Git.png",
+      "/Assets/Logos/GitHub.png",
+      "/Assets/Logos/VSCode.png"
     ]
   },
   {
     "id": "4",
-    "title": "Kasa ",
+    "title": "Sophie Bluel ",
 
-    "text": "Application immobilière de location d'appartements entre particuliers, utilisant les technologies React, Sass et React Router.",
+    "text": "Portfolio de Sophie Bluel, architecte d'intérieur. Une connexion en mode administrateur permet via une modale de supprimer des projets et d'en ajouter en interagissant avec le back-end sans recharger la page.",
 
     "webSite": "",
 
-    "siteCode": "https://github.com/Micka-dev/Projet-7-Kasa.git",
+    "siteCode": "https://github.com/Micka-dev/Projet-6-Portfolio-architecte-sophie-bluel.git",
 
-    "description": "Le projet <strong>Kasa</strong> consiste en une <strong>refonte totale du site de location</strong> d'appartements entre particuliers, codé initialement en ASP.NET, il y a plus de dix ans. Sous l'impulsion de Laura, la CTO, l'objectif est de moderniser l'ensemble de l'application en adoptant une stack JavaScript complète : <strong>NodeJS</strong> pour le back-end et <strong>React</strong> pour le front-end. En l’absence d'un développeur back-end, la priorité est donnée au développement du front-end, avec l'utilisation de maquettes <strong>Figma </strong>responsives et d'un fichier <strong>JSON</strong> contenant les dernières annonces de logements pour construire les composants nécessaires. <br></br>Paul, le designer, a fourni les maquettes et les ressources nécessaires pour le design d'interface sur Figma, en insistant sur l'utilisation de <strong>composants réutilisables</strong> pour faciliter le travail sur React. Les fonctionnalités attendues incluent, entre autres, une galerie de photos avec défilement circulaire, des <strong>composants Collapse interactifs</strong> pour afficher et masquer les sections d'information, et un routage efficace avec <strong>React Router</strong> pour assurer une navigation fluide et gérer les erreurs de route. Le projet met également l'accent sur une mise en page cohérente utilisant <strong>Sass</strong> pour structurer le code CSS, les <strong>animations</strong> ainsi que la  création de composants spécifiques comme les bannières et les cartes des logements. Le tout en <strong>responsive</strong>.",
+    "description": "Le projet de développement du site web pour <strong>Sophie Bluel</strong>, architecte d'intérieur, visait à <strong>créer une page web dynamique</strong> afin de mettre en valeur ses réalisations. Ce projet a consisté en plusieurs étapes cruciales de développement Front-End, où j'étais chargé de concevoir une galerie de présentation des travaux, une page de connexion pour l'administrateur et une modale pour l'upload de nouveaux médias. La première étape a consisté à préparer mon environnement de développement en me familiarisant avec les ressources fournies, notamment le design <strong>Figma</strong> et le code <strong>back-end</strong>. J'ai commencé par développer une <strong>galerie dynamique</strong> pour présenter les travaux de l'architecte. Cette galerie récupére les données depuis une <strong>API</strong> et permet de <strong>filtrer les projets par catégories</strong>. Une attention particulière a été requise pour s'assurer que tous les projets s'affichaient correctement et que les filtres fonctionnaient de manière fluide. <br></br>Ensuite, j'ai créé une <strong>page de connexion pour l'administrateur</strong> du site. Ce développement a été réalisé <strong>à partir de zéro</strong>, en intégrant le design fourni et en mettant en place un <strong>système d'authentification</strong> utilisateur via un formulaire. La page de connexion redirige les utilisateurs correctement en fonction de la réussite ou de l'échec de l'authentification, en affichant des messages d'erreur clairs en cas de besoin. La dernière grande fonctionnalité à développer était une <strong>modale permettant d'ajouter et de supprimer des projets</strong>. Cette modale permet l'ajout de nouveaux projets en <strong>interagissant avec le back-end sans recharger la page</strong>. J'ai également <strong>géré les erreurs du formulaire</strong> et vérifié que les nouveaux projets s'affichaient dynamiquement dans la galerie après leur soumission. Chaque étape du projet a necéssité une <strong>vérification minutieuse</strong> pour garantir que tout fonctionne correctement et que l'expérience utilisateur soit optimale. ",
 
-    "learned": "Dans ce projet, j’ai implémenté le front-end d’une application en utilisant <strong>React</strong> et <strong>React Router</strong> pour créer une expérience utilisateur moderne et réactive. .<br></br>J’ai travaillé sur la logique de présentation des données et les composants React, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur.  <br></br> J’ai utilisé React Router pour configurer la navigation entre les différentes pages de l'application. Cela m’a permis de comprendre comment gérer efficacement le <strong>routage</strong> dans une application web moderne. <br></br>Le projet était exclusivement concentré sur le développement front-end, en se basant sur les maquettes <strong>Figma</strong> fournies et en utilisant des données simulées extraites d'un fichier JSON. <br></br>J’ai initialisé le projet avec Create React App, un outil qui simplifie la configuration initiale d'une application React. J’ai également utilisé <strong>Node.js</strong> pour exécuter du code JavaScript en dehors du navigateur. .<br></br>J’ai utilisé  <strong>SASS</strong> pour gérer le CSS et implémenté des <strong>animations CSS</strong> pour améliorer l'expérience utilisateur comme un <strong>carrousel</strong> bouclant à l'infini. <br></br>L’ensemble de ces compétences me permet de créer des applications web interactives et visuellement attrayantes, très demandées dans l'industrie du développement web.",
+    "learned": "En réalisant ce projet, j'ai acquis une <strong> solide maîtrise de la création de pages web dynamiques en utilisant JavaScript</strong>. J'ai appris à <strong> gérer les événements utilisateurs</strong>, ce qui m'a permis de rendre l'<strong> interaction</strong>  avec le site web <strong> fluide et intuitive</strong>. J'ai <strong> manipulé les éléments du DOM avec JavaScript</strong>, ce qui était essentiel pour <strong> actualiser</strong>  le contenu de la page en temps réel<strong>  sans</strong>  nécessiter de<strong>  rechargement complet</strong>. Travailler sur la récupération des données via une <strong> API</strong>  m'a permis de comprendre comment interagir avec un<strong>  back-end,  récupérer et afficher des données de manière dynamique, et gérer les réponses de l'API efficacement</strong>. <br></br>J'ai également développé une <strong> page de connexion sécurisée</strong>  pour l'administrateur, en implémentant des fonctionnalités d'<strong> authentification</strong>  et en gérant les redirections et les messages d'erreur. Cela m'a aidé à comprendre l'importance de la sécurité et de l'expérience utilisateur dans les formulaires de connexion. La <strong> création de la modale pour l'ajout et la suppression</strong>  de projets m'a appris à <strong> gérer des formulaires complexes</strong>  et à envoyer des données au back-end en utilisant <strong> fetch</strong>. J'ai utilisé l'objet <strong> FormData</strong>  pour structurer les données à envoyer et j'ai vérifié que les nouvelles entrées s'affichaient correctement dans la galerie sans recharger la page. <br></br>Enfin, j'ai appris à utiliser des outils comme <strong> Figma </strong> pour accéder aux maquettes de design, <strong> Visual Studio Code</strong>  pour le développement, et <strong> GitHub</strong>  pour la gestion de version de mon projet. Chaque étape du projet m'a permis de renforcer mes compétences techniques et de comprendre l'importance de chaque détail dans le développement Front-End. Ces compétences sont fondamentales pour réaliser des <strong> projets de développement web modernes et interactifs</strong>, en assurant une expérience utilisateur de qualité et une bonne intégration des différentes fonctionnalités du site.",
 
-    "cover": "/Assets/Kasa/kasa.webp",
+    "cover": "/Assets/Sophie-Bluel/Sophie.webp",
 
     "pictures": [
-      "/Assets/Kasa/kasa.webp",
-      "/Assets/Kasa/kasa1.webp",
-      "/Assets/Kasa/kasa2.webp",
-      "/Assets/Kasa/kasa3.webp"
+      "/Assets/Sophie-Bluel/Sophie.webp",
+      "/Assets/Sophie-Bluel/Sophie1.webp",
+      "/Assets/Sophie-Bluel/Sophie2.webp",
+      "/Assets/Sophie-Bluel/Sophie3.webp"
     ],
 
     "stacks": [
-      "/Assets/Logos/React.png",
-      "/Assets/Logos/React-Router.png",
+      "/Assets/Logos/Javascript.png",
+      "/Assets/Logos/CSS3.png",
+      "/Assets/Logos/Figma.png",
+      "/Assets/Logos/Html5.png",
       "/Assets/Logos/Node.js.png",
-      "/Assets/Logos/SASS.png",
-      "/Assets/Logos/Figma.png"
+      "/Assets/Logos/Git.png",
+      "/Assets/Logos/GitHub.png",
+      "/Assets/Logos/Notion.png",
+      "/Assets/Logos/VSCode.png"
     ]
   },
   {
     "id": "5",
-    "title": "Kasa ",
+    "title": "Ohmyfood ",
 
-    "text": "Application immobilière de location d'appartements entre particuliers, utilisant les technologies React, Sass et React Router.",
+    "text": "Ohmyfood est une jeune startup innovante sur le marché de la restauration. Amélioration de l'interface utilisateur avec diverses animations CSS en utilisant SASS et intégration de la maquette Figma fournie par l'UX designer.",
 
-    "webSite": "",
+    "webSite": "https://micka-dev.github.io/Projet-4-Ohmyfood/",
 
-    "siteCode": "https://github.com/Micka-dev/Projet-7-Kasa.git",
+    "siteCode": "https://github.com/Micka-dev/Projet-4-Ohmyfood.git",
 
-    "description": "Le projet <strong>Kasa</strong> consiste en une <strong>refonte totale du site de location</strong> d'appartements entre particuliers, codé initialement en ASP.NET, il y a plus de dix ans. Sous l'impulsion de Laura, la CTO, l'objectif est de moderniser l'ensemble de l'application en adoptant une stack JavaScript complète : <strong>NodeJS</strong> pour le back-end et <strong>React</strong> pour le front-end. En l’absence d'un développeur back-end, la priorité est donnée au développement du front-end, avec l'utilisation de maquettes <strong>Figma </strong>responsives et d'un fichier <strong>JSON</strong> contenant les dernières annonces de logements pour construire les composants nécessaires. <br></br>Paul, le designer, a fourni les maquettes et les ressources nécessaires pour le design d'interface sur Figma, en insistant sur l'utilisation de <strong>composants réutilisables</strong> pour faciliter le travail sur React. Les fonctionnalités attendues incluent, entre autres, une galerie de photos avec défilement circulaire, des <strong>composants Collapse interactifs</strong> pour afficher et masquer les sections d'information, et un routage efficace avec <strong>React Router</strong> pour assurer une navigation fluide et gérer les erreurs de route. Le projet met également l'accent sur une mise en page cohérente utilisant <strong>Sass</strong> pour structurer le code CSS, les <strong>animations</strong> ainsi que la  création de composants spécifiques comme les bannières et les cartes des logements. Le tout en <strong>responsive</strong>.",
+    "description": "<strong>Ohmyfood</strong> est une jeune startup innovante sur le marché de la restauration. Après s'être implantée à New York, elle ambitionne désormais de conquérir Paris avec un site web <strong>mobile first</strong> répertoriant les menus de restaurants gastronomiques. Ce site unique permet aux clients de composer leur menu à l'avance pour que les plats soient prêts dès leur arrivée, éliminant ainsi les temps d'attente au restaurant.<br></br> En tant que développeur junior, ma mission est de <strong>créer ce site en me basant sur les maquettes fournies par l'UX designer</strong>, en utilisant des technologies modernes comme <strong>SASS</strong> pour le CSS, <strong>Git et GitHub</strong> pour la gestion de projet. Le site doit être <strong>entièrement responsive</strong>, avec une priorité donnée aux mobiles avant de s'adapter aux tablettes et aux ordinateurs. <br></br>L'intégration des <strong>animations CSS</strong> enrichira l'expérience utilisateur, rendant la <strong>navigation plus fluide et interactive</strong>. J'ai eu également accès au <strong>prototype sur Figma</strong> ainsi qu'aux images et textes nécessaires. <br></br>Le projet comporte plusieurs étapes, depuis la mise en place du projet sur GitHub jusqu'à la finalisation de toutes les pages des restaurants, en passant par <strong>l'intégration mobile et desktop</strong> de la page d'accueil, <strong>sans oublier les diverses animations</strong>.",
 
-    "learned": "Dans ce projet, j’ai implémenté le front-end d’une application en utilisant <strong>React</strong> et <strong>React Router</strong> pour créer une expérience utilisateur moderne et réactive. .<br></br>J’ai travaillé sur la logique de présentation des données et les composants React, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur.  <br></br> J’ai utilisé React Router pour configurer la navigation entre les différentes pages de l'application. Cela m’a permis de comprendre comment gérer efficacement le <strong>routage</strong> dans une application web moderne. <br></br>Le projet était exclusivement concentré sur le développement front-end, en se basant sur les maquettes <strong>Figma</strong> fournies et en utilisant des données simulées extraites d'un fichier JSON. <br></br>J’ai initialisé le projet avec Create React App, un outil qui simplifie la configuration initiale d'une application React. J’ai également utilisé <strong>Node.js</strong> pour exécuter du code JavaScript en dehors du navigateur. .<br></br>J’ai utilisé  <strong>SASS</strong> pour gérer le CSS et implémenté des <strong>animations CSS</strong> pour améliorer l'expérience utilisateur comme un <strong>carrousel</strong> bouclant à l'infini. <br></br>L’ensemble de ces compétences me permet de créer des applications web interactives et visuellement attrayantes, très demandées dans l'industrie du développement web.",
+    "learned": "En travaillant sur ce projet, j'ai acquis plusieurs compétences essentielles pour le développement web moderne. Tout d'abord, j'ai appris à <strong>intégrer des maquettes en adoptant une approche mobile first</strong>, ce qui m'a permis de comprendre l'importance de concevoir des sites adaptatifs et réactifs, optimisés d'abord pour les mobiles.<br></br>J'ai également implémenté des <strong>animations CSS</strong>, notamment des <strong>transitions douces pour les boutons, des animations au survol pour les images et des effets de déplacement pour les sections</strong>. Par exemple, les boutons changent de couleur de fond de manière fluide lorsqu'on les survole, et les images des plats s'agrandissent légèrement pour capter l'attention de l'utilisateur. J'ai aussi créé des <strong>animations de glissement pour que les sections apparaissent progressivement lorsqu'on fait défiler la page ainsi qu’une animation au niveau du cœur pour mettre le restaurant en favoris</strong>, rendant l'expérience utilisateur plus dynamique et engageante.<br></br>L'utilisation de <strong> SASS</strong>, un préprocesseur CSS, m'a aidé à organiser et maintenir mon code de manière efficace, en rendant les styles plus modulaires et maintenables. En versionnant le projet avec <strong> Git et GitHub</strong>, j'ai appris à gérer et collaborer sur des projets de développement web, un atout indispensable dans le milieu professionnel. En outre, cette expérience m'a permis de mieux comprendre la <strong> gestion des media queries</strong>  pour adapter le site à différentes tailles d'écrans et de développer une attention particulière à la <strong> validation du code HTML et CSS</strong>. Ces compétences combinées ont renforcé mon profil de développeur front-end compétent et polyvalent, prêt à relever de nouveaux défis.",
 
-    "cover": "/Assets/Kasa/kasa.webp",
+    "cover": "/Assets/Ohmyfood/ohmyfood.webp",
 
     "pictures": [
-      "/Assets/Kasa/kasa.webp",
-      "/Assets/Kasa/kasa1.webp",
-      "/Assets/Kasa/kasa2.webp",
-      "/Assets/Kasa/kasa3.webp"
+      "/Assets/Ohmyfood/ohmyfood.webp",
+      "/Assets/Ohmyfood/ohmyfood1.webp",
+      "/Assets/Ohmyfood/ohmyfood2.webp",
+      "/Assets/Ohmyfood/ohmyfood3.webp",
+      "/Assets/Ohmyfood/ohmyfood4.webp"
     ],
 
     "stacks": [
-      "/Assets/Logos/React.png",
-      "/Assets/Logos/React-Router.png",
-      "/Assets/Logos/Node.js.png",
       "/Assets/Logos/SASS.png",
-      "/Assets/Logos/Figma.png"
+      "/Assets/Logos/CSS3.png",
+      "/Assets/Logos/Html5.png",
+      "/Assets/Logos/Figma.png",
+      "/Assets/Logos/W3C.png",
+      "/Assets/Logos/Git.png",
+      "/Assets/Logos/GitHub.png",
+      "/Assets/Logos/VSCode.png"
     ]
   },
   {
     "id": "6",
-    "title": "Kasa ",
+    "title": "Booki ",
 
-    "text": "Application immobilière de location d'appartements entre particuliers, utilisant les technologies React, Sass et React Router.",
+    "text": "Start-up innovante, qui vise à créer un site internet permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. Création d'une page d'accueil responsive assurant une expérience utilisateur fluide et cohérente sur tous les appareils et tailles d'écran en HTML et CSS",
 
-    "webSite": "",
+    "webSite": "https://micka-dev.github.io/projet-3-Booki",
 
-    "siteCode": "https://github.com/Micka-dev/Projet-7-Kasa.git",
+    "siteCode": "https://github.com/Micka-dev/projet-3-Booki.git",
 
-    "description": "Le projet <strong>Kasa</strong> consiste en une <strong>refonte totale du site de location</strong> d'appartements entre particuliers, codé initialement en ASP.NET, il y a plus de dix ans. Sous l'impulsion de Laura, la CTO, l'objectif est de moderniser l'ensemble de l'application en adoptant une stack JavaScript complète : <strong>NodeJS</strong> pour le back-end et <strong>React</strong> pour le front-end. En l’absence d'un développeur back-end, la priorité est donnée au développement du front-end, avec l'utilisation de maquettes <strong>Figma </strong>responsives et d'un fichier <strong>JSON</strong> contenant les dernières annonces de logements pour construire les composants nécessaires. <br></br>Paul, le designer, a fourni les maquettes et les ressources nécessaires pour le design d'interface sur Figma, en insistant sur l'utilisation de <strong>composants réutilisables</strong> pour faciliter le travail sur React. Les fonctionnalités attendues incluent, entre autres, une galerie de photos avec défilement circulaire, des <strong>composants Collapse interactifs</strong> pour afficher et masquer les sections d'information, et un routage efficace avec <strong>React Router</strong> pour assurer une navigation fluide et gérer les erreurs de route. Le projet met également l'accent sur une mise en page cohérente utilisant <strong>Sass</strong> pour structurer le code CSS, les <strong>animations</strong> ainsi que la  création de composants spécifiques comme les bannières et les cartes des logements. Le tout en <strong>responsive</strong>.",
+    "description": "Le projet <strong>Booki</strong> est un projet de développement web mené au sein d'une start-up innovante, qui vise à créer un site internet permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. <br></br>En tant qu'alternant développeur web, j’ai collaboré étroitement avec Sarah, la CTO, et Loïc, l’UI designer, pour <strong>intégrer l'interface du site en utilisant HTML et CSS</strong>. Je disposais des <strong>maquettes Figma pour mobile, tablette et desktop</strong>, des images nécessaires, et d'une note de synthèse détaillant les <strong>spécifications et les contraintes techniques</strong> du projet. <br></br>Le but était de créer une page d'accueil <strong>responsive</strong>, assurant une expérience utilisateur fluide et cohérente sur tous les appareils et tailles d'écran. <br></br>Les tâches incluaient la <strong>structuration du code HTML, la création des composants d'interface, et l'intégration des contenus conformément aux maquettes fournies</strong>.",
 
-    "learned": "Dans ce projet, j’ai implémenté le front-end d’une application en utilisant <strong>React</strong> et <strong>React Router</strong> pour créer une expérience utilisateur moderne et réactive. .<br></br>J’ai travaillé sur la logique de présentation des données et les composants React, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur.  <br></br> J’ai utilisé React Router pour configurer la navigation entre les différentes pages de l'application. Cela m’a permis de comprendre comment gérer efficacement le <strong>routage</strong> dans une application web moderne. <br></br>Le projet était exclusivement concentré sur le développement front-end, en se basant sur les maquettes <strong>Figma</strong> fournies et en utilisant des données simulées extraites d'un fichier JSON. <br></br>J’ai initialisé le projet avec Create React App, un outil qui simplifie la configuration initiale d'une application React. J’ai également utilisé <strong>Node.js</strong> pour exécuter du code JavaScript en dehors du navigateur. .<br></br>J’ai utilisé  <strong>SASS</strong> pour gérer le CSS et implémenté des <strong>animations CSS</strong> pour améliorer l'expérience utilisateur comme un <strong>carrousel</strong> bouclant à l'infini. <br></br>L’ensemble de ces compétences me permet de créer des applications web interactives et visuellement attrayantes, très demandées dans l'industrie du développement web.",
+    "learned": "À travers ce projet, j'ai acquis des <strong>compétences cruciales</strong> en design et développement web. <br></br>J'ai appris à <strong>intégrer des maquettes avec précision en utilisant HTML et CSS</strong>, en créant des composants d'interface réutilisables et en stylisant le code pour répondre aux <strong>exigences de design</strong>. <br></br>J'ai également développé une compréhension approfondie des <strong>techniques de design responsive</strong>, garantissant que la page d'accueil fonctionne bien sur divers appareils et résolutions d'écran. En configurant efficacement un environnement de développement, j'ai posé les bases nécessaires pour devenir un développeur front-end compétent. <br></br>Ces compétences sont essentielles dans le domaine du développement web moderne, où la capacité à créer des <strong>interfaces web responsives et bien structurées</strong>  est de plus en plus demandée. Le site est maintenant en ligne et opérationnel, reflétant mon apprentissage et mes compétences acquises.",
 
-    "cover": "/Assets/Kasa/kasa.webp",
+    "cover": "/Assets/Booki/booki.webp",
 
     "pictures": [
-      "/Assets/Kasa/kasa.webp",
-      "/Assets/Kasa/kasa1.webp",
-      "/Assets/Kasa/kasa2.webp",
-      "/Assets/Kasa/kasa3.webp"
+      "/Assets/Booki/booki.webp",
+      "/Assets/Booki/booki1.webp",
+      "/Assets/Booki/booki2.webp",
+      "/Assets/Booki/booki3.webp",
+      "/Assets/Booki/booki4.webp"
     ],
 
     "stacks": [
-      "/Assets/Logos/React.png",
-      "/Assets/Logos/React-Router.png",
-      "/Assets/Logos/Node.js.png",
-      "/Assets/Logos/SASS.png",
-      "/Assets/Logos/Figma.png"
+      "/Assets/Logos/CSS3.png",
+      "/Assets/Logos/Html5.png",
+      "/Assets/Logos/W3C.png",
+      "/Assets/Logos/Figma.png",
+      "/Assets/Logos/Git.png",
+      "/Assets/Logos/GitHub.png"
     ]
   }
 ]
