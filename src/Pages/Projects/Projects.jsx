@@ -20,7 +20,6 @@ function Projects() {
   }
 
   const workSelected = works.find((work) => work.id === workId)
-  console.log('workSelected', workSelected)
 
   return (
     <section className="projectList_main-container">

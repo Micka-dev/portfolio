@@ -7,8 +7,6 @@ import technologies from '../../Datas/Technologies/technologies-outils.json'
 import photoProfil from '../../Assets/Micka.webp'
 
 function About() {
-  console.log(about)
-
   return (
     <div className="aboutDetails">
       <div className="aboutDetails_container">

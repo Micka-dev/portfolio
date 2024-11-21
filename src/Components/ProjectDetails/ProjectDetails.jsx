@@ -1,8 +1,6 @@
 import './projectDetails.scss'
 
 function ProjectDetails({ description, learned, stacks }) {
-  console.log('stacks', stacks)
-
   return (
     <div className="projectDetails">
       <div className="projectDetails_container">
