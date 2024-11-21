@@ -9,6 +9,7 @@
   border: #484848 solid 1px;
   box-sizing: border-box;
   padding: 15px 30px;
+  transition: 0.3s ease-in-out;
 
   &:hover {
     background-color: #2a2a2a;
@@ -87,7 +88,7 @@
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-    transition: scale 0.1s ease-in-out;
+    transition: scale 0.3s ease-in-out;
 
     &:hover {
       scale: 1.4;
