@@ -11,7 +11,7 @@ function ProjectCard({ id, cover, title, text }) {
       }
       to={`/projects/${id}`}
     >
-      <div className="projectCard">
+      <article className="projectCard">
         <img
           className="projectCard_img"
           src={cover}
@@ -23,7 +23,7 @@ function ProjectCard({ id, cover, title, text }) {
             <p className="projectCard_text">{text}</p>
           </div>
         ) : null}
-      </div>
+      </article>
     </NavLink>
   )
 }

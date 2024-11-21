@@ -22,13 +22,13 @@ function Projects() {
   const workSelected = works.find((work) => work.id === workId)
 
   return (
-    <section className="projectList_main-container">
+    <main className="projectList_main-container">
       <ProjectList />
 
-      <div className="project-header">
+      <header className="project-header">
         <h1 className="project-header_title">{workSelected.title}</h1>
         <p className="project-header_text">{workSelected.text}</p>
-      </div>
+      </header>
 
       <Gallery
         pictures={workSelected.pictures.map(
@@ -49,7 +49,7 @@ function Projects() {
           (stack) => process.env.PUBLIC_URL + stack
         )}
       />
-    </section>
+    </main>
   )
 }
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Summary({ intro }) {
   return (
-    <div className="summary-container">
+    <header className="summary-container">
       <Link to="/about">
         <img
           src={photoProfil}
@@ -19,7 +19,7 @@ function Summary({ intro }) {
         className="summary-container_text"
         dangerouslySetInnerHTML={{ __html: intro }}
       ></p>
-    </div>
+    </header>
   )
 }
 

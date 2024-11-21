@@ -52,7 +52,7 @@ function Contact() {
   }
 
   return (
-    <div className="contact_container">
+    <main className="contact_container">
       <form className="contactForm" onSubmit={handleSubmit}>
         <div className="bloc">
           <div className="bloc_first-part">
@@ -203,7 +203,7 @@ function Contact() {
           </div>
         </NavLink>
       </div>
-    </div>
+    </main>
   )
 }
 

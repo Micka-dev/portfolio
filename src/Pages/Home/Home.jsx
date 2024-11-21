@@ -6,10 +6,10 @@ import intro from '../../Datas/Intro/intro.json'
 
 function Home() {
   return (
-    <div>
+    <main>
       <Summary intro={intro.intro} />
       <h3 className="project-title">Projets à l'honneur</h3>
-      <div className="projectCards-container">
+      <section className="projectCards-container">
         {works
           .filter((work) => Number(work.id) < 3)
           .map((work) => (
@@ -21,8 +21,8 @@ function Home() {
               text={work.text}
             />
           ))}
-      </div>
-    </div>
+      </section>
+    </main>
   )
 }
 

@@ -4,22 +4,22 @@ function ProjectDetails({ description, learned, stacks }) {
   return (
     <div className="projectDetails">
       <div className="projectDetails_container">
-        <div className="projectDetails_content">
+        <article className="projectDetails_content">
           <h2 className="projectDetails_title">Description du projet</h2>
           <p
             className="projectDetails_text"
             dangerouslySetInnerHTML={{ __html: description }}
           ></p>
-        </div>
-        <div className="projectDetails_content">
+        </article>
+        <article className="projectDetails_content">
           <h2 className="projectDetails_title">Ce que j'ai appris</h2>
           <p
             className="projectDetails_text"
             dangerouslySetInnerHTML={{ __html: learned }}
           ></p>
-        </div>
+        </article>
       </div>
-      <div className="projectDetails_content projectDetails_content_last">
+      <article className="projectDetails_content projectDetails_content_last">
         <h2 className="projectDetails_title">
           Technologies et outils utilisés
         </h2>
@@ -33,7 +33,7 @@ function ProjectDetails({ description, learned, stacks }) {
             />
           ))}
         </div>
-      </div>
+      </article>
     </div>
   )
 }

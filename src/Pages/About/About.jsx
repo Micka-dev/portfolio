@@ -8,8 +8,8 @@ import photoProfil from '../../Assets/Micka.webp'
 
 function About() {
   return (
-    <div className="aboutDetails">
-      <div className="aboutDetails_container">
+    <main className="aboutDetails">
+      <section className="aboutDetails_container">
         <div className="summary-container_img-wrapper outside">
           <img
             src={photoProfil}
@@ -17,7 +17,7 @@ function About() {
             alt="Mickaël Douceré"
           />
         </div>
-        <div className="aboutDetails_content">
+        <section className="aboutDetails_content">
           <h2 className="aboutDetails_title">A propos de moi</h2>
           <div className="summary-container_img-wrapper inside">
             <img
@@ -32,9 +32,9 @@ function About() {
               dangerouslySetInnerHTML={{ __html: about.aboutMe }}
             ></p>
           </div>
-        </div>
-      </div>
-      <div className="aboutDetails_content">
+        </section>
+      </section>
+      <section className="aboutDetails_content">
         <h2 className="aboutDetails_title">
           Technologies et outils utiisés quotidiennement
         </h2>
@@ -48,12 +48,12 @@ function About() {
             />
           ))}
         </div>
-      </div>
-      <div className="aboutDetails_content">
+      </section>
+      <section className="aboutDetails_content">
         <h2 className="aboutDetails_title">Expériences et formations</h2>
         <Timeline />
-      </div>
-    </div>
+      </section>
+    </main>
   )
 }
 

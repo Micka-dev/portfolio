@@ -35,7 +35,7 @@ function Gallery({ pictures }) {
   }
 
   return (
-    <div className="carousel-container">
+    <section className="carousel-container">
       <div className="works-carousel">
         {pictures.map(
           (picture, index) =>
@@ -82,7 +82,7 @@ function Gallery({ pictures }) {
           />
         )}
       </div>
-    </div>
+    </section>
   )
 }
 
