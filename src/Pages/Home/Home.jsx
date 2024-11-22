@@ -8,7 +8,7 @@ function Home() {
   return (
     <main>
       <Summary intro={intro.intro} />
-      <h3 className="project-title">Projets à l'honneur</h3>
+      <h2 className="project-title">Projets à l'honneur</h2>
       <section className="projectCards-container">
         {works
           .filter((work) => Number(work.id) < 3)

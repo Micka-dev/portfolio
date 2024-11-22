@@ -43,7 +43,7 @@ function Gallery({ pictures }) {
               <img
                 key={picture}
                 src={picture}
-                alt=""
+                alt="Captures du site"
                 className="works-carousel_slide"
                 onTouchStart={handleTouchStart}
                 onTouchMove={handleTouchMove}

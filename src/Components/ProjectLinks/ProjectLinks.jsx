@@ -6,13 +6,33 @@ function ProjectLinks({ webSite, siteCode }) {
     <nav className="projectLinks">
       <div className="projectLinks_container">
         {webSite ? (
-          <NavLink to={webSite} target="_blank" rel="noopener noreferrer">
-            <i className="projectLinks_icon fa-solid fa-globe"></i>
+          <NavLink
+            to={webSite}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visitez le site web"
+            title="Visitez le site web"
+          >
+            <i
+              className="projectLinks_icon fa-solid fa-globe"
+              role="img"
+              aria-hidden="true"
+            ></i>
           </NavLink>
         ) : null}
         {siteCode ? (
-          <NavLink to={siteCode} target="_blank" rel="noopener noreferrer">
-            <i className="projectLinks_icon fa-brands fa-github"></i>
+          <NavLink
+            to={siteCode}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Voir le code source sur GitHub"
+            title="Voir le code source sur GitHub"
+          >
+            <i
+              className="projectLinks_icon fa-brands fa-github"
+              role="img"
+              aria-hidden="true"
+            ></i>
           </NavLink>
         ) : null}
       </div>

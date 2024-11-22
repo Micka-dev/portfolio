@@ -9,7 +9,7 @@ function Summary({ intro }) {
         <img
           src={photoProfil}
           className="summary-container_img"
-          alt="Mickaël Douceré"
+          alt="Portrait Mickaël Douceré"
         />
       </Link>
       <h1 className="summary-container_title">

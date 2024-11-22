@@ -4,20 +4,22 @@ import './header.scss'
 function Header() {
   return (
     <div className="header-container">
-      {/* <img className="header-container_logo" src={Logo} alt="Logo du site" /> */}
-
       <nav className="header-container_nav">
         <NavLink
-          // Permet la navigation vers la route définie
-          // Condition qui permet d'activer ou non le style d'un lien sélectionné
           className={({ isActive }) =>
             isActive
               ? 'header-container_link-activated header-container_link'
               : 'header-container_link'
           }
           to="/"
+          aria-label="Accueil"
+          title="Accueil"
         >
-          <i className="fa-solid fa-house projects"></i>
+          <i
+            className="fa-solid fa-house projects"
+            role="img"
+            aria-hidden="true"
+          ></i>
         </NavLink>
         <NavLink
           className={({ isActive }) =>
@@ -26,8 +28,14 @@ function Header() {
               : ' header-container_link'
           }
           to="/projects"
+          aria-label="Projets"
+          title="Projets"
         >
-          <i className="fa-solid fa-briefcase"></i>
+          <i
+            className="fa-solid fa-briefcase"
+            role="img"
+            aria-hidden="true"
+          ></i>
         </NavLink>
         <NavLink
           className={({ isActive }) =>
@@ -36,11 +44,10 @@ function Header() {
               : 'header-container_link'
           }
           to="/about"
+          aria-label="À propos"
+          title="À propos"
         >
-          {/* <i className="fa-regular fa-address-card"></i> */}
-          {/* <i className="fa-solid fa-address-card"></i> */}
-          {/* <i className="fa-regular fa-user"></i> */}
-          <i className="fa-solid fa-user"></i>
+          <i className="fa-solid fa-user" role="img" aria-hidden="true"></i>
         </NavLink>
         <NavLink
           className={({ isActive }) =>
@@ -49,9 +56,10 @@ function Header() {
               : 'header-container_link'
           }
           to="/contact"
+          aria-label="Contact"
+          title="Contact"
         >
-          <i className="fa-solid fa-envelope"></i>
-          {/* <i className="fa-regular fa-envelope"></i> */}
+          <i className="fa-solid fa-envelope" role="img" aria-hidden="true"></i>
         </NavLink>
       </nav>
     </div>
