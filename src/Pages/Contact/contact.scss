@@ -161,7 +161,7 @@ textarea.contactForm_input-field {
 .submit-button:hover {
   background-color: #313131;
   color: #eeeeee;
-  scale: 1.02;
+  transform: scale(1.02);
 }
 
 .required {
@@ -242,7 +242,7 @@ textarea.contactForm_input-field {
     &:hover {
       background-color: #313131;
       color: #eeeeee;
-      scale: 1.02;
+      transform: scale(1.02);
     }
 
     @media (min-width: 768px) {
