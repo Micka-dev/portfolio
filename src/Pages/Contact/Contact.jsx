@@ -129,7 +129,7 @@ function Contact() {
                 Entreprise
               </label>
               <input
-                type="tel"
+                type="text"
                 id="business"
                 name="business"
                 placeholder="Capgemini"
