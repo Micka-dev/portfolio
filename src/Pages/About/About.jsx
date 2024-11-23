@@ -18,7 +18,7 @@ function About() {
           />
         </div>
         <section className="aboutDetails_content">
-          <h2 className="aboutDetails_title">A propos de moi</h2>
+          <h1 className="aboutDetails_title">A propos de moi</h1>
           <div className="summary-container_img-wrapper inside">
             <img
               src={photoProfil}

@@ -24,12 +24,12 @@ function ProjectDetails({ description, learned, stacks }) {
           Technologies et outils utilisés
         </h2>
         <div className="technologies-container">
-          {stacks.map((stack) => (
+          {stacks.map((stack, index) => (
             <img
               className="technology"
-              key={stack}
-              src={stack}
-              alt="logo de la technologie"
+              key={stack.id}
+              src={stack.src}
+              alt={`logo de la technologie ${stack.alt}`}
             />
           ))}
         </div>

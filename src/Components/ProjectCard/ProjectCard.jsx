@@ -15,7 +15,7 @@ function ProjectCard({ id, cover, title, text }) {
         <img
           className="projectCard_img"
           src={cover}
-          alt="logement sélectionné"
+          alt={`Captures du site ${title} `}
         />
         {title && text ? (
           <div className="projectCard_content">

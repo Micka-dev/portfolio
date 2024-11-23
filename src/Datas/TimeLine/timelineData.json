@@ -11,7 +11,8 @@
     "id": 2,
     "date": "2022 - 2023",
     "title": "Directeur ALSH Périscolaire & Extrascolaire",
-    "subtitle": "",
+    "subtitle": "Responsable des établissements et gestion des équipes",
+
     "description": "Gestion de la défaillance du portail famille. Projet intergénérationnel & maison de tous les dangers",
     "iconClassName": "fa-solid fa-briefcase"
   },
@@ -20,15 +21,14 @@
     "date": "2021-2023",
     "title": "BAFD",
     "subtitle": "Brevet d’aptitude aux fonctions de directeur",
-    "description": "",
     "iconClassName": "fa-solid fa-graduation-cap"
   },
   {
     "id": 4,
     "date": "2021 - 2022",
     "title": "Directeur ALSH Extrascolaire",
-    "subtitle": "",
-    "description": "",
+    "subtitle": "Responsable de l'établissement et gestion d'équipe",
+
     "iconClassName": "fa-solid fa-briefcase"
   },
   {
@@ -43,8 +43,8 @@
     "id": 6,
     "date": "2020 - 2021",
     "title": "Coordonnateur enfance et jeunesse & directeur périscolaire",
-    "subtitle": "",
-    "description": "Elaboration du PEdT en concertation avec l’équipe d’animation, les élus, les enseignants, les familles... Relation avec les élus accru",
+    "subtitle": "Responsable encadrement et gestion d'équipe",
+    "description": "Elaboration du PEdT en concertation avec l’équipe d’animation, les élus, les enseignants, les familles... Relation avec les élus accrue",
     "iconClassName": "fa-solid fa-briefcase"
   },
   {
@@ -59,8 +59,8 @@
     "id": 8,
     "date": "2003 - 2020",
     "title": "Animateur ALSH",
-    "subtitle": "",
-    "description": "",
+    "subtitle": "Accueil de loisirs sans hébergement",
+
     "iconClassName": "fa-solid fa-briefcase"
   },
   {
@@ -68,7 +68,6 @@
     "date": "2016 - 2017",
     "title": "Concours professeur des écoles",
     "subtitle": "En candidat libre, écrit obtenu uniquement",
-    "description": "",
     "iconClassName": "fa-solid fa-graduation-cap"
   },
   {
@@ -84,7 +83,6 @@
     "date": "2005",
     "title": "Licence STAPS",
     "subtitle": "Spécialité éducation et motricité",
-    "description": "",
     "iconClassName": "fa-solid fa-graduation-cap"
   },
   {
@@ -92,7 +90,6 @@
     "date": "2001",
     "title": "Bac S",
     "subtitle": "Bac scientifique",
-    "description": "",
     "iconClassName": "fa-solid fa-graduation-cap"
   }
 ]
