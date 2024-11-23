@@ -44,10 +44,10 @@ function Projects() {
       <ProjectDetails
         description={workSelected.description}
         learned={workSelected.learned}
-        // stacks={workSelected.stacks}
-        stacks={workSelected.stacks.map(
-          (stack) => process.env.PUBLIC_URL + stack
-        )}
+        stacks={workSelected.stacks.map((stack) => ({
+          src: process.env.PUBLIC_URL + stack.source,
+          alt: stack.name,
+        }))}
       />
     </main>
   )
