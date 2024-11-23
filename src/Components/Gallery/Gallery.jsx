@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './gallery.scss'
 import ArrowRight from '../../Assets/Arrow/ArrowRight.svg'
 import ArrowLeft from '../../Assets/Arrow/ArrowLeft.svg'
@@ -7,6 +7,10 @@ function Gallery({ pictures }) {
   const [currentPicture, setCurrentPicture] = useState(0)
   const [touchStartX, setTouchStartX] = useState(0)
   const [touchEndX, setTouchEndX] = useState(0)
+
+  useEffect(() => {
+    setCurrentPicture(0)
+  }, [pictures])
 
   const nextSlide = () => {
     setCurrentPicture((currentPicture + 1) % pictures.length)
@@ -43,7 +47,7 @@ function Gallery({ pictures }) {
               <img
                 key={picture}
                 src={picture}
-                alt="Captures du site"
+                alt={`Captures du site ${index + 1} sur ${pictures.length}`}
                 className="works-carousel_slide"
                 onTouchStart={handleTouchStart}
                 onTouchMove={handleTouchMove}
