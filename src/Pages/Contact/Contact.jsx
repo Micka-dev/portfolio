@@ -14,6 +14,7 @@ function Contact() {
 
   const [errors, setErrors] = useState({})
   const [formSubmitted, setFormSubmitted] = useState(false)
+  const [generalError, setGeneralError] = useState('')
 
   const validate = () => {
     let formErrors = {}
@@ -23,12 +24,18 @@ function Contact() {
     if (!formData.subject) formErrors.subject = 'Sujet requis'
     if (!formData.message) formErrors.message = 'Message requis'
     setErrors(formErrors)
-    return Object.keys(formErrors).length === 0
+    if (Object.keys(formErrors).length > 0) {
+      setGeneralError('Veuillez remplir tous les champs obligatoires.')
+      return false
+    }
+    setGeneralError('')
+    return true
   }
 
   const handleChange = (e) => {
     const { name, value } = e.target
     setFormData({ ...formData, [name]: value })
+    setFormSubmitted(false)
   }
 
   const handleSubmit = (e) => {
@@ -53,6 +60,10 @@ function Contact() {
 
   return (
     <main className="contact_container">
+      <h1 className="contact_container_title">Contactez moi</h1>
+      <p className="contact_container_text">
+        Discutons de votre idée, projet ou de tout autre chose !
+      </p>
       <form className="contactForm" onSubmit={handleSubmit}>
         <div className="bloc">
           <div className="bloc_first-part">
@@ -172,31 +183,54 @@ function Contact() {
           />
           {errors.message && <span className="error">{errors.message}</span>}
         </div>
+        {formSubmitted && (
+          <div className="confirmation-message">
+            Votre message a été envoyé avec succès !
+          </div>
+        )}
+        {generalError && (
+          <div className="error general-error">{generalError}</div>
+        )}
         <div className="box-button">
           <button type="submit" className="submit-button">
             Envoyer
           </button>
         </div>
       </form>
-      {formSubmitted && (
-        <div className="confirmation-message">
-          Votre message a été envoyé avec succès !
-        </div>
-      )}
       <div className="contact-links_main-container">
-        <NavLink className="contact-links_box-container" to="">
+        <a
+          className="contact-links_box-container"
+          href="mailto:mickael.doucere@gmail.com"
+          rel="noopener noreferrer"
+          aria-label="M'envoyer un mail"
+          title="M'envoyer un mail"
+        >
           <div className="contact-links_link-container">
             <i className="contact-links_icon fa-solid fa-at"></i>
             mickael.doucere@gmail.com
           </div>
-        </NavLink>
-        <NavLink className="contact-links_box-container" to="">
+        </a>
+        <NavLink
+          className="contact-links_box-container"
+          to=""
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Me retrouver sur Linked in"
+          title="Me retrouver sur Linked in"
+        >
           <div className="contact-links_link-container">
             <i className="contact-links_icon fa-brands fa-linkedin"></i>
             Mickaël Douceré
           </div>
         </NavLink>
-        <NavLink className="contact-links_box-container" to="">
+        <NavLink
+          className="contact-links_box-container"
+          to="https://github.com/Micka-dev"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Me retrouver sur GitHub"
+          title="Me retrouver sur GitHub"
+        >
           <div className="contact-links_link-container">
             <i className="contact-links_icon fa-brands fa-github"></i>
             Micka-dev
