@@ -1,0 +1,51 @@
+{
+  "firstName": {
+    "label": "Prénom",
+    "placeholder": "John",
+    "required": true,
+    "type": "text",
+    "name": "firstName"
+  },
+  "lastName": {
+    "label": "Nom",
+    "placeholder": "Doe",
+    "required": true,
+    "type": "text",
+    "name": "lastName"
+  },
+  "phone": {
+    "label": "Téléphone",
+    "placeholder": "06 xx xx xx xx",
+    "required": false,
+    "type": "tel",
+    "name": "phone"
+  },
+  "email": {
+    "label": "Email",
+    "placeholder": "john.doe@gmail.com",
+    "required": true,
+    "type": "email",
+    "name": "email"
+  },
+  "business": {
+    "label": "Entreprise",
+    "placeholder": "Capgemini",
+    "required": false,
+    "type": "text",
+    "name": "business"
+  },
+  "subject": {
+    "label": "Sujet",
+    "placeholder": "Sujet de votre message",
+    "required": true,
+    "type": "text",
+    "name": "subject"
+  },
+  "message": {
+    "label": "Message",
+    "placeholder": "Travaillons ensemble !",
+    "required": true,
+    "type": "textarea",
+    "name": "message"
+  }
+}
