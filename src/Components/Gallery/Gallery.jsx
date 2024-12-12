@@ -70,7 +70,7 @@ function Gallery({ pictures }) {
             src={ArrowLeft}
             alt="icon flèche gauche"
             onClick={previousSlide}
-            onKeyPress={(event) => handleKeyPress(event, previousSlide)}
+            onKeyDown={(event) => handleKeyPress(event, previousSlide)}
           />
         )}
 
@@ -82,7 +82,7 @@ function Gallery({ pictures }) {
             src={ArrowRight}
             alt="icon flèche droite"
             onClick={nextSlide}
-            onKeyPress={(event) => handleKeyPress(event, nextSlide)}
+            onKeyDown={(event) => handleKeyPress(event, nextSlide)}
           />
         )}
       </div>
