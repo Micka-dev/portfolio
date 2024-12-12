@@ -1,13 +1,29 @@
+.main-container {
+  margin-top: 30px;
+
+  @media (min-width: 768px) {
+    margin-top: 130px;
+    margin-bottom: 0;
+  }
+}
+
 .header-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
-  margin-bottom: 30px;
+  margin: 15px 0;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 
   @media (min-width: 768px) {
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin: 30px 0;
+
+    top: 0;
+    bottom: auto;
   }
 
   &_nav {
@@ -15,6 +31,7 @@
     gap: 10px;
     background-color: #191919;
     border: #484848 solid 1px;
+    font-size: 16px;
     padding: 10px 15px;
     border-radius: 50px;
     transition: 0.3s ease-in-out;
