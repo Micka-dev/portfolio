@@ -15,7 +15,6 @@ function ProjectLinks({ webSite, siteCode }) {
           >
             <i
               className="projectLinks_icon fa-solid fa-globe"
-              role="img"
               aria-hidden="true"
             ></i>
           </NavLink>
@@ -30,7 +29,6 @@ function ProjectLinks({ webSite, siteCode }) {
           >
             <i
               className="projectLinks_icon fa-brands fa-github"
-              role="img"
               aria-hidden="true"
             ></i>
           </NavLink>

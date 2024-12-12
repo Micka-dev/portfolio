@@ -24,7 +24,7 @@ function ProjectDetails({ description, learned, stacks }) {
           Technologies et outils utilisés
         </h2>
         <div className="technologies-container">
-          {stacks.map((stack, index) => (
+          {stacks.map((stack) => (
             <img
               className="technology"
               key={stack.id}

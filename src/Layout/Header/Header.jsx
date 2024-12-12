@@ -15,11 +15,7 @@ function Header() {
           aria-label="Accueil"
           title="Accueil"
         >
-          <i
-            className="fa-solid fa-house projects"
-            role="img"
-            aria-hidden="true"
-          ></i>
+          <i className="fa-solid fa-house projects" aria-hidden="true"></i>
         </NavLink>
         <NavLink
           className={({ isActive }) =>
@@ -31,11 +27,7 @@ function Header() {
           aria-label="Projets"
           title="Projets"
         >
-          <i
-            className="fa-solid fa-briefcase"
-            role="img"
-            aria-hidden="true"
-          ></i>
+          <i className="fa-solid fa-briefcase" aria-hidden="true"></i>
         </NavLink>
         <NavLink
           className={({ isActive }) =>
@@ -47,7 +39,7 @@ function Header() {
           aria-label="À propos"
           title="À propos"
         >
-          <i className="fa-solid fa-user" role="img" aria-hidden="true"></i>
+          <i className="fa-solid fa-user" aria-hidden="true"></i>
         </NavLink>
         <NavLink
           className={({ isActive }) =>
@@ -59,7 +51,7 @@ function Header() {
           aria-label="Contact"
           title="Contact"
         >
-          <i className="fa-solid fa-envelope" role="img" aria-hidden="true"></i>
+          <i className="fa-solid fa-envelope" aria-hidden="true"></i>
         </NavLink>
       </nav>
     </div>
