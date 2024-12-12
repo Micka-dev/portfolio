@@ -41,64 +41,6 @@
   @media (min-width: 768px) {
     gap: 25px;
   }
-
-  &_form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 5px 5px;
-    background-color: #191919;
-    border: #484848 solid 1px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    color: #eeeeee;
-    width: 100%;
-
-    @media (min-width: 768px) {
-      border-radius: 25px;
-    }
-  }
-
-  &_input-field {
-    margin: 10px;
-    padding: 15px;
-    background-color: #2a2a2a;
-    border: #484848 solid 1px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    color: white;
-    height: 40px;
-    font-size: 0.8rem;
-    transition: 0.3s ease-in-out;
-
-    &:hover {
-      background-color: #313131;
-    }
-
-    @media (min-width: 768px) {
-      border-radius: 25px;
-      font-size: 1rem;
-    }
-
-    &:-webkit-autofill {
-      background-color: #2a2a2a !important;
-      color: white !important;
-      -webkit-text-fill-color: white !important;
-      transition: background-color 5000s ease-in-out 0s;
-    }
-
-    &:-webkit-autofill:hover,
-    &:-webkit-autofill:focus,
-    &:-webkit-autofill:active {
-      background-color: #313131 !important;
-      color: white !important;
-      -webkit-text-fill-color: white !important;
-      transition: background-color 5000s ease-in-out 0s;
-    }
-  }
-
-  &_form-label {
-    padding: 5px 15px;
-  }
 }
 
 .bloc {
@@ -135,31 +77,6 @@
   }
 }
 
-textarea.contactForm_input-field {
-  margin: 10px;
-  height: 100px;
-  resize: vertical;
-
-  @media (min-width: 768px) {
-    height: 200px;
-  }
-
-  &:-webkit-autofill {
-    background-color: #2a2a2a !important;
-    color: white !important;
-    -webkit-text-fill-color: white !important;
-    transition: background-color 5000s ease-in-out 0s;
-  }
-  &:-webkit-autofill:hover,
-  &:-webkit-autofill:focus,
-  &:-webkit-autofill:active {
-    background-color: #313131 !important;
-    color: white !important;
-    -webkit-text-fill-color: white !important;
-    transition: background-color 5000s ease-in-out 0s;
-  }
-}
-
 .box-button {
   display: flex;
   justify-content: center;
@@ -193,7 +110,7 @@ textarea.contactForm_input-field {
   transition: background-color 0.3s;
   font-size: 1.3rem;
   width: 100%;
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
 
   @media (min-width: 768px) {
     border-radius: 50px;
@@ -203,97 +120,11 @@ textarea.contactForm_input-field {
 .submit-button:hover {
   background-color: #313131;
   color: #eeeeee;
-  transform: scale(1.02);
-}
-
-.required {
-  color: rgb(244, 83, 83);
-}
-
-.error {
-  color: rgb(244, 83, 83);
-  font-size: 14px;
-  margin: 10px;
-  text-align: right;
+  transform: scale(1.01);
 }
 
 .confirmation-message {
   margin: 20px;
   color: #22c55ecc;
   text-align: center;
-}
-
-.contact-links {
-  &_main-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-    @media (min-width: 768px) {
-      flex-direction: row;
-      gap: 30px;
-    }
-
-    @media (min-width: 1024px) {
-      flex-direction: row;
-    }
-  }
-
-  &_box-container {
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-    background-color: #191919;
-    border: #484848 solid 1px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    color: #b4b4b4;
-    height: 120px;
-    font-size: 1rem;
-    cursor: pointer;
-
-    @media (min-width: 1024px) {
-      width: 300px;
-    }
-
-    @media (min-width: 1440px) {
-      width: 400px;
-    }
-
-    &:active {
-      background-color: #313131;
-      border: 2px solid #606060;
-    }
-
-    @media (min-width: 768px) {
-      border-radius: 25px;
-    }
-  }
-
-  &_link-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #2a2a2a;
-    border-radius: 10px;
-    padding: 10px;
-    width: 100%;
-    transition: 0.3s ease-in-out;
-
-    &:hover {
-      background-color: #313131;
-      color: #eeeeee;
-      transform: scale(1.02);
-    }
-
-    @media (min-width: 768px) {
-      border-radius: 25px;
-    }
-  }
-
-  &_icon {
-    margin-right: 20px;
-    font-size: 30px;
-  }
 }
