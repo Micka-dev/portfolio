@@ -7,13 +7,17 @@ import Footer from '../Layout/Footer/Footer.jsx'
 import { HashRouter } from 'react-router-dom'
 
 import '../index.css'
+import BackToTop from '../Components/BackToTop/BackToTop.jsx'
+import ScrollToTop from '../Components/ScrollToTop/ScrollToTop.jsx'
 
 function App() {
   return (
     <HashRouter>
       <Header />
       <main className="main-container">
+        <ScrollToTop />
         <Router />
+        <BackToTop />
       </main>
       <Footer />
     </HashRouter>
