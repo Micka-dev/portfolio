@@ -1,13 +1,11 @@
 .montserrat {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
 
 .montserrat {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
@@ -17,6 +15,7 @@
   font-weight: 500;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -27,17 +26,26 @@ a {
 .main-container {
   margin-right: 20px;
   margin-left: 20px;
+  max-width: 1600px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .main-container {
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .main-container {
+    margin-right: 50px;
+    margin-left: 50px;
   }
 }
 
 body {
   background-color: #111111;
-  color: #eeeeee;
+  color: #b4b4b4;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=index.css.map */
