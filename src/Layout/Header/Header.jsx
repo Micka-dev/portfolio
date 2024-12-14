@@ -2,57 +2,41 @@ import { NavLink } from 'react-router-dom'
 import './header.scss'
 
 function Header() {
+  const navLinks = [
+    { to: '/', ariaLabel: 'Accueil', title: 'Accueil', icon: 'fa-house' },
+    {
+      to: '/projects',
+      ariaLabel: 'Projets',
+      title: 'Projets',
+      icon: 'fa-briefcase',
+    },
+    { to: '/about', ariaLabel: 'À propos', title: 'À propos', icon: 'fa-user' },
+    {
+      to: '/contact',
+      ariaLabel: 'Contact',
+      title: 'Contact',
+      icon: 'fa-envelope',
+    },
+  ]
+
   return (
     <div className="header-container">
       <nav className="header-container_nav">
-        <NavLink
-          className={({ isActive }) =>
-            isActive
-              ? 'header-container_link-activated header-container_link'
-              : 'header-container_link'
-          }
-          to="/"
-          aria-label="Accueil"
-          title="Accueil"
-        >
-          <i className="fa-solid fa-house projects" aria-hidden="true"></i>
-        </NavLink>
-        <NavLink
-          className={({ isActive }) =>
-            isActive
-              ? 'header-container_link-activated header-container_link'
-              : ' header-container_link'
-          }
-          to="/projects"
-          aria-label="Projets"
-          title="Projets"
-        >
-          <i className="fa-solid fa-briefcase" aria-hidden="true"></i>
-        </NavLink>
-        <NavLink
-          className={({ isActive }) =>
-            isActive
-              ? 'header-container_link-activated header-container_link'
-              : 'header-container_link'
-          }
-          to="/about"
-          aria-label="À propos"
-          title="À propos"
-        >
-          <i className="fa-solid fa-user" aria-hidden="true"></i>
-        </NavLink>
-        <NavLink
-          className={({ isActive }) =>
-            isActive
-              ? 'header-container_link-activated header-container_link'
-              : 'header-container_link'
-          }
-          to="/contact"
-          aria-label="Contact"
-          title="Contact"
-        >
-          <i className="fa-solid fa-envelope" aria-hidden="true"></i>
-        </NavLink>
+        {navLinks.map(({ to, ariaLabel, title, icon }) => (
+          <NavLink
+            key={to}
+            className={({ isActive }) =>
+              `header-container_link ${
+                isActive ? 'header-container_link-activated' : ''
+              }`
+            }
+            to={to}
+            aria-label={ariaLabel}
+            title={title}
+          >
+            <i className={`fa-solid ${icon}`} aria-hidden="true"></i>
+          </NavLink>
+        ))}
       </nav>
     </div>
   )
