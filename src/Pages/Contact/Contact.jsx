@@ -157,11 +157,11 @@ function Contact() {
           text="mickael.doucere@gmail.com"
         />
         <ContactLink
-          href="https://www.linkedin.com/in/mickael-doucere/"
+          href="https://www.linkedin.com/in/mickaël-douceré/"
           ariaLabel="Me retrouver sur LinkedIn"
           title="Me retrouver sur LinkedIn"
           iconClass="fa-brands fa-linkedin"
-          text="Mickaël Douceré"
+          text="mickaël-douceré"
         />
         <ContactLink
           href="https://github.com/Micka-dev"

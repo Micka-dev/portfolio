@@ -1,10 +1,18 @@
 [
   {
     "id": 1,
-    "date": "2024 - aujourd'hui",
-    "title": "Formation OpenClassrooms",
+    "date": "Janv. 2025 - aujourd'hui",
+    "title": "Développeur Informatique",
+    "subtitle": "Diplôme obtenu de niveau 5",
+    "description": "Compétent en React, Redux, Sass, Redux toolkit, React Router, JavaScript, Figma, swagger, Notion, Json, HTML5, CSS3...",
+    "iconClassName": "fa-solid fa-graduation-cap"
+  },
+  {
+    "id": 1,
+    "date": "2024",
+    "title": "Formation OpenClassrooms d'intégrateur web",
     "subtitle": "12 projets professionnels réalisés",
-    "description": "React, Redux, Sass, Redux toolkit, Figma, swagger, Notion, Json, HTML5, CSS3...",
+    "description": "React, Redux, Sass, Redux toolkit, React Router, JavaScript, Figma, swagger, Notion, Json, HTML5, CSS3...",
     "iconClassName": "fa-solid fa-graduation-cap"
   },
   {
@@ -12,7 +20,6 @@
     "date": "2022 - 2023",
     "title": "Directeur ALSH Périscolaire & Extrascolaire",
     "subtitle": "Responsable des établissements et gestion des équipes",
-
     "description": "Gestion de la défaillance du portail famille. Projet intergénérationnel & maison de tous les dangers",
     "iconClassName": "fa-solid fa-briefcase"
   },
@@ -49,9 +56,9 @@
   },
   {
     "id": 7,
-    "date": "2006 - 2020 ?",
+    "date": "2006 - 2014",
     "title": "Educateur sportif",
-    "subtitle": "Football, Basket, Multisport",
+    "subtitle": "Football, Basket, Multisport, éveil corporel",
     "description": "",
     "iconClassName": "fa-solid fa-briefcase"
   },
@@ -67,7 +74,7 @@
     "id": 9,
     "date": "2016 - 2017",
     "title": "Concours professeur des écoles",
-    "subtitle": "En candidat libre, écrit obtenu uniquement",
+    "subtitle": "En candidat libre, en parallèle de mon temps plein. Ecrit obtenu uniquement",
     "iconClassName": "fa-solid fa-graduation-cap"
   },
   {

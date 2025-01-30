@@ -30,6 +30,7 @@ function ProjectDetails({ description, learned, stacks }) {
               key={stack.id}
               src={stack.src}
               alt={`logo de la technologie ${stack.alt}`}
+              title={stack.alt}
             />
           ))}
         </div>
