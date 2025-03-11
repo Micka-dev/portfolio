@@ -1,7 +1,7 @@
 import './contactLink.scss'
 import React from 'react'
 
-const ContactLink = ({ href, ariaLabel, title, iconClass, text }) => {
+const ContactLink = ({ href, ariaLabel, title, iconClass }) => {
   return (
     <a
       className="contact-links_box-container"
@@ -11,9 +11,8 @@ const ContactLink = ({ href, ariaLabel, title, iconClass, text }) => {
       title={title}
       target="_blank"
     >
-      <div className="contact-links_link-container">
+      <div className="contact-links">
         <i className={`contact-links_icon ${iconClass}`} aria-hidden="true"></i>
-        {text}
       </div>
     </a>
   )
