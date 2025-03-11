@@ -1,0 +1,64 @@
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  transform: skew(8deg);
+  background: #313131;
+  border-radius: 10px;
+  box-shadow: -3px 4px 1px 3px #2a2a2a;
+  filter: drop-shadow(8px 8px 16px rgba(57, 61, 96, 0.2));
+  animation: floating 3s ease-in-out alternate-reverse infinite;
+  animation-fill-mode: both;
+
+  @media (min-width: 375px) {
+    width: 45px;
+    height: 45px;
+  }
+  @media (min-width: 768px) {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+.key2 {
+  transform: skew(-12deg);
+  box-shadow: 3px 4px 1px 3px #2a2a2a;
+  animation: floating2 3s ease-in-out alternate-reverse infinite;
+  animation-fill-mode: both;
+}
+
+/* Boucles de delay */
+@for $i from 0 through 10 {
+  .delay-#{$i} {
+    animation-delay: $i * 0.8s;
+  }
+  .delay2-#{$i} {
+    animation-delay: 0.4s + $i * 0.4s;
+  }
+}
+
+.logo {
+  width: 65%;
+  height: 65%;
+}
+
+/* Animation des keys */
+@keyframes floating {
+  0% {
+    transform: skew(8deg) translateY(0);
+  }
+  100% {
+    transform: skew(8deg) translateY(20px);
+  }
+}
+
+@keyframes floating2 {
+  0% {
+    transform: skew(-12deg) translateY(0);
+  }
+  100% {
+    transform: skew(-12deg) translateY(20px);
+  }
+}
