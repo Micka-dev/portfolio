@@ -29,7 +29,7 @@
   },
   "business": {
     "label": "Entreprise",
-    "placeholder": "Capgemini",
+    "placeholder": "Nom de l'entreprise",
     "required": false,
     "type": "text",
     "name": "business"
