@@ -7,8 +7,7 @@
 
   &_img {
     border: #484848 solid 1px;
-    width: 120px;
-    margin: 0 20px 20px;
+    width: 100px;
     border-radius: 25px;
     padding: 5px;
     background-color: #191919;
@@ -26,13 +25,138 @@
       background-color: #2a2a2a;
     }
   }
+
+  &_portrait {
+    margin: 0 10px;
+  }
+
   &_title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: #eeeeee;
+  }
+
+  &_availability {
+    position: relative;
+    z-index: 1;
+    color: #eeeeee;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #313131;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    overflow: hidden;
+
+    @media (min-width: 425px) {
+      font-size: 16px;
+    }
+
+    // Pseudo-élément pour la bordure animée
+    &::before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      right: -2px;
+      bottom: -2px;
+      left: -2px;
+      background: conic-gradient(#b4b4b4, #313131);
+      z-index: -2;
+      animation: rotateBorder 6s linear infinite;
+    }
+
+    // Pseudo-élément pour recouvrir le centre, créant ainsi l'effet de bordure
+    &::after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      bottom: 2px;
+      left: 2px;
+      background: #313131;
+      border-radius: inherit;
+      z-index: -1;
+    }
+  }
+
+  // Animation qui fait tourner le gradient
+  @keyframes rotateBorder {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  // Liens de contact
+  &_main-links-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 15px;
+    font-size: 30px;
   }
 
   &_text {
     margin-bottom: 50px;
     max-width: 500px;
   }
+
+  .header-intro_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
+
+  .main-stack-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 30%;
+  }
+
+  .keys-main-container {
+    display: flex;
+    gap: 5px;
+
+    @media (min-width: 425px) {
+      gap: 20px;
+    }
+    @media (min-width: 1024px) {
+      gap: 40px;
+    }
+    @media (min-width: 1440px) {
+      gap: 80px;
+    }
+  }
+
+  .keys {
+    &-container1 {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+
+      @media (min-width: 768px) {
+        gap: 100px;
+      }
+    }
+
+    &-container2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
+
+.preview-cv {
+  transition: 0.3s ease-in-out;
+}
+
+.preview-cv:hover {
+  color: #eeeeee;
 }
