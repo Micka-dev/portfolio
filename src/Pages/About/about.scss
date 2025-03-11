@@ -34,13 +34,14 @@ strong {
   &_content {
     background-color: #191919;
     border: #484848 solid 1px;
-    padding: 20px 20px;
+    padding: 15px 15px;
     border-radius: 10px;
     width: 100%;
 
     @media (min-width: 768px) {
       gap: 5px;
       border-radius: 25px;
+      padding: 30px 30px;
     }
   }
 
@@ -52,9 +53,7 @@ strong {
   }
 
   &_text {
-    padding: 0 20px 20px;
     @media (min-width: 1440px) {
-      width: 90%;
     }
   }
 
@@ -74,6 +73,7 @@ strong {
         display: block;
         padding: 10px;
         margin-right: 20px;
+        margin-bottom: 20px;
       }
     }
   }
@@ -96,7 +96,6 @@ strong {
     }
 
     @media (min-width: 1440px) {
-      margin-left: 100px;
       margin-right: 40px;
     }
   }
