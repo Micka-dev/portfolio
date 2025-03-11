@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import './gallery.scss'
 import ArrowRight from '../../Assets/Arrow/ArrowRight.svg'
 import ArrowLeft from '../../Assets/Arrow/ArrowLeft.svg'
@@ -8,9 +8,21 @@ function Gallery({ pictures }) {
   const [touchStartX, setTouchStartX] = useState(0)
   const [touchEndX, setTouchEndX] = useState(0)
 
+  const carouselRef = useRef(null)
+  const [isFullScreen, setIsFullScreen] = useState(false)
+
   useEffect(() => {
     setCurrentPicture(0)
   }, [pictures])
+
+  useEffect(() => {
+    const handleFullScreenChange = () => {
+      setIsFullScreen(!!document.fullscreenElement)
+    }
+    document.addEventListener('fullscreenchange', handleFullScreenChange)
+    return () =>
+      document.removeEventListener('fullscreenchange', handleFullScreenChange)
+  }, [])
 
   const nextSlide = () => {
     setCurrentPicture((currentPicture + 1) % pictures.length)
@@ -38,8 +50,26 @@ function Gallery({ pictures }) {
     if (event.key === 'Enter') action()
   }
 
+  const toggleFullScreen = () => {
+    if (!document.fullscreenElement) {
+      if (carouselRef.current.requestFullscreen) {
+        carouselRef.current.requestFullscreen()
+      } else if (carouselRef.current.mozRequestFullScreen) {
+        carouselRef.current.mozRequestFullScreen()
+      } else if (carouselRef.current.webkitRequestFullscreen) {
+        carouselRef.current.webkitRequestFullscreen()
+      } else if (carouselRef.current.msRequestFullscreen) {
+        carouselRef.current.msRequestFullscreen()
+      }
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen()
+      }
+    }
+  }
+
   return (
-    <section className="carousel-container">
+    <section className="carousel-container" ref={carouselRef}>
       <div className="works-carousel">
         {pictures.map(
           (picture, index) =>
@@ -96,6 +126,18 @@ function Gallery({ pictures }) {
           />
         )}
       </div>
+
+      <button
+        className="fullscreen-btn"
+        onClick={toggleFullScreen}
+        aria-label={isFullScreen ? 'Réduire' : 'Plein écran'}
+      >
+        {isFullScreen ? (
+          <i className="fa-solid fa-down-left-and-up-right-to-center"></i>
+        ) : (
+          <i className="fa-solid fa-up-right-and-down-left-from-center"></i>
+        )}
+      </button>
     </section>
   )
 }
