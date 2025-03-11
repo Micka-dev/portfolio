@@ -12,7 +12,9 @@ function ProjectDetails({ description, learned, stacks }) {
           ></p>
         </article>
         <article className="projectDetails_content">
-          <h2 className="projectDetails_title">Ce que j'ai appris</h2>
+          <h2 className="projectDetails_title">
+            Ce que j'ai appris et réalisé
+          </h2>
           <p
             className="projectDetails_text"
             dangerouslySetInnerHTML={{ __html: learned }}
