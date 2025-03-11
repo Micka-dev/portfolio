@@ -50,26 +50,54 @@ function Gallery({ pictures }) {
     if (event.key === 'Enter') action()
   }
 
-  const toggleFullScreen = () => {
+  // Fonction pour basculer en mode plein écran et verrouiller l'orientation en paysage
+  const toggleFullScreen = async () => {
+    if (!carouselRef.current) {
+      console.warn('Élément carousel introuvable.')
+      return
+    }
+
     if (!document.fullscreenElement) {
-      if (carouselRef.current.requestFullscreen) {
-        carouselRef.current.requestFullscreen()
-      } else if (carouselRef.current.mozRequestFullScreen) {
-        carouselRef.current.mozRequestFullScreen()
-      } else if (carouselRef.current.webkitRequestFullscreen) {
-        carouselRef.current.webkitRequestFullscreen()
-      } else if (carouselRef.current.msRequestFullscreen) {
-        carouselRef.current.msRequestFullscreen()
+      // Demander le mode plein écran
+      try {
+        if (carouselRef.current.requestFullscreen) {
+          await carouselRef.current.requestFullscreen()
+        } else if (carouselRef.current.mozRequestFullScreen) {
+          await carouselRef.current.mozRequestFullScreen()
+        } else if (carouselRef.current.webkitRequestFullscreen) {
+          await carouselRef.current.webkitRequestFullscreen()
+        } else if (carouselRef.current.msRequestFullscreen) {
+          await carouselRef.current.msRequestFullscreen()
+        }
+        // Tenter de verrouiller l'orientation en paysage
+        if (window.screen.orientation && window.screen.orientation.lock) {
+          try {
+            await window.screen.orientation.lock('landscape')
+            console.log('Orientation verrouillée en paysage.')
+          } catch (err) {
+            console.error("Impossible de verrouiller l'orientation :", err)
+          }
+        }
+      } catch (err) {
+        console.error("Erreur lors de l'activation du plein écran :", err)
       }
     } else {
+      // Sortir du mode plein écran
       if (document.exitFullscreen) {
         document.exitFullscreen()
+      }
+      // Il n'est pas toujours nécessaire (ou possible) de déverrouiller l'orientation manuellement
+      if (window.screen.orientation && window.screen.orientation.unlock) {
+        window.screen.orientation.unlock()
       }
     }
   }
 
   return (
-    <section className="carousel-container" ref={carouselRef}>
+    <section
+      className={`carousel-container ${isFullScreen ? 'fullscreen' : ''}`}
+      ref={carouselRef}
+    >
       <div className="works-carousel">
         {pictures.map(
           (picture, index) =>
