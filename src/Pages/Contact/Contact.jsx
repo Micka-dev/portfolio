@@ -93,8 +93,31 @@ function Contact() {
     <main className="contact_container">
       <h1 className="contact_container_title">Contactez moi</h1>
       <p className="contact_container_text">
-        Discutons de votre idée, projet ou de tout autre chose !
+        Discutons de vos idées, projets ou de tout autre chose !{' '}
+        <i class="fa-regular fa-face-laugh-wink"></i>
       </p>
+
+      <div className="contact-links_main-container">
+        <ContactLink
+          href="mailto:mickael.doucere@gmail.com"
+          ariaLabel="M'envoyer un email à mickael.doucere@gmail.com"
+          title="M'envoyer un email à mickael.doucere@gmail.com"
+          iconClass="fa-solid fa-at"
+        />
+        <ContactLink
+          href="https://www.linkedin.com/in/mickaël-douceré/"
+          ariaLabel="Me retrouver sur LinkedIn"
+          title="Me retrouver sur LinkedIn"
+          iconClass="fa-brands fa-linkedin"
+        />
+        <ContactLink
+          href="https://github.com/Micka-dev"
+          ariaLabel="Me retrouver sur GitHub"
+          title="Me retrouver sur GitHub"
+          iconClass="fa-brands fa-github"
+        />
+      </div>
+      <p className="contactForm_title">Formulaire de contact</p>
       {Object.keys(config).length > 0 && (
         <form id="contactForm" className="contactForm" onSubmit={handleSubmit}>
           <div className="bloc">
@@ -148,29 +171,6 @@ function Contact() {
           </div>
         </form>
       )}
-      <div className="contact-links_main-container">
-        <ContactLink
-          href="mailto:mickael.doucere@gmail.com"
-          ariaLabel="M'envoyer un email"
-          title="M'envoyer un email"
-          iconClass="fa-solid fa-at"
-          text="mickael.doucere@gmail.com"
-        />
-        <ContactLink
-          href="https://www.linkedin.com/in/mickaël-douceré/"
-          ariaLabel="Me retrouver sur LinkedIn"
-          title="Me retrouver sur LinkedIn"
-          iconClass="fa-brands fa-linkedin"
-          text="mickaël-douceré"
-        />
-        <ContactLink
-          href="https://github.com/Micka-dev"
-          ariaLabel="Me retrouver sur GitHub"
-          title="Me retrouver sur GitHub"
-          iconClass="fa-brands fa-github"
-          text="Micka-dev"
-        />
-      </div>
     </main>
   )
 }
