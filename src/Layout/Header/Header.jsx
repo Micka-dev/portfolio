@@ -10,7 +10,12 @@ function Header() {
       title: 'Projets',
       icon: 'fa-briefcase',
     },
-    { to: '/about', ariaLabel: 'À propos', title: 'À propos', icon: 'fa-user' },
+    {
+      to: '/about',
+      ariaLabel: 'À propos de moi',
+      title: 'À propos de moi',
+      icon: 'fa-user',
+    },
     {
       to: '/contact',
       ariaLabel: 'Contact',
