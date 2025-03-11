@@ -57,9 +57,17 @@ function Gallery({ pictures }) {
         )}
 
         {pictures.length > 1 && (
-          <span className="slideCounter">
-            {currentPicture + 1}/{pictures.length}
-          </span>
+          <div className="slideCounter">
+            {pictures.map((_, index) => (
+              <span
+                key={index}
+                className={`indicator ${
+                  currentPicture === index ? 'active' : ''
+                }`}
+                aria-hidden="true"
+              />
+            ))}
+          </div>
         )}
 
         {pictures.length > 1 && (
@@ -71,6 +79,7 @@ function Gallery({ pictures }) {
             alt="icon flèche gauche"
             onClick={previousSlide}
             onKeyDown={(event) => handleKeyPress(event, previousSlide)}
+            aria-hidden="true"
           />
         )}
 
@@ -83,6 +92,7 @@ function Gallery({ pictures }) {
             alt="icon flèche droite"
             onClick={nextSlide}
             onKeyDown={(event) => handleKeyPress(event, nextSlide)}
+            aria-hidden="true"
           />
         )}
       </div>
