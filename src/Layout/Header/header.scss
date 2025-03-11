@@ -85,5 +85,15 @@
     width: auto;
     transform: translateY(-50%);
     // margin: 15px;
+
+    &_nav {
+      flex-direction: column;
+      padding: 10px 5px;
+    }
+
+    &_link {
+      width: 35px;
+      height: 35px;
+    }
   }
 }
