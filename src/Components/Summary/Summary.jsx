@@ -49,11 +49,11 @@ function Summary({ intro }) {
         <Cube />
       </div>
       <h1 className="summary-container_title">
-        Mickaël Douceré <br></br>Développeur Web
+        Mickaël Douceré <br></br>Concepteur Développeur d'Applications
       </h1>
       <Link to="/contact">
         <p className="summary-container_availability">
-          Disponible pour de nouvelles opportunités
+          Cherche activement une alternance CDA - Disponible immédiatement
         </p>
       </Link>
       <div className="summary-container_main-links-container">

@@ -93,8 +93,11 @@ function Contact() {
     <main className="contact_container">
       <h1 className="contact_container_title">Contactez moi</h1>
       <p className="contact_container_text">
-        Discutons de vos idées, projets ou de tout autre chose !{' '}
-        <i class="fa-regular fa-face-laugh-wink"></i>
+        👉 Recherche active d'alternance — Concepteur Développeur d'Applications
+        (ENI Rennes) Disponible immédiatement • Rythme adaptable selon les
+        besoins de l'entreprise • Signature du contrat nécessaire pour valider
+        la formation. <br></br> <br></br>Discutons de vos idées, projets ou de
+        tout autre chose ! <i class="fa-regular fa-face-laugh-wink"></i>
       </p>
 
       <div className="contact-links_main-container">

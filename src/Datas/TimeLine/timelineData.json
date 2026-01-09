@@ -1,6 +1,14 @@
 [
   {
-    "id": 1,
+    "id": 14,
+    "date": "Nov. 2025 ",
+    "title": "Concepteur Développeur d'Applications",
+    "subtitle": "Admis à l'ENI Rennes (niveau 6)",
+    "description": "Formation en alternance ( Java, Spring Boot, Spring Security Angular, JUnit, Flutter, Python, DevOps SQL, NoSQL, Docker, ...)",
+    "iconClassName": "fa-solid fa-graduation-cap"
+  },
+  {
+    "id": 13,
     "date": "Janv. 2025 ",
     "title": "Développeur Informatique",
     "subtitle": "Diplôme obtenu (niveau 5)",
@@ -8,15 +16,15 @@
     "iconClassName": "fa-solid fa-graduation-cap"
   },
   {
-    "id": 2,
-    "date": "fevr. 2024 - déc. 2024",
+    "id": 12,
+    "date": "Fevr. 2024 - déc. 2024",
     "title": "Formation OpenClassrooms d'intégrateur web",
     "subtitle": "12 projets professionnels réalisés",
     "description": "React, Redux, (Redux toolkit, React Router) Sass, JavaScript, Figma, swagger, Notion, Json, HTML5, CSS3...",
     "iconClassName": "fa-solid fa-graduation-cap"
   },
   {
-    "id": 3,
+    "id": 11,
     "date": "2022 - 2023",
     "title": "Directeur ALSH Périscolaire & Extrascolaire",
     "subtitle": "Responsable des établissements et gestion des équipes",
@@ -24,14 +32,14 @@
     "iconClassName": "fa-solid fa-briefcase"
   },
   {
-    "id": 4,
+    "id": 10,
     "date": "2021-2023",
     "title": "BAFD",
     "subtitle": "Brevet d’aptitude aux fonctions de directeur",
     "iconClassName": "fa-solid fa-graduation-cap"
   },
   {
-    "id": 5,
+    "id": 9,
     "date": "2021 - 2022",
     "title": "Directeur ALSH Extrascolaire",
     "subtitle": "Responsable de l'établissement et gestion d'équipe",
@@ -39,7 +47,7 @@
     "iconClassName": "fa-solid fa-briefcase"
   },
   {
-    "id": 6,
+    "id": 8,
     "date": "2022",
     "title": "PSC1",
     "subtitle": "Diplôme d'état de Prévention et Secours Civiques de Niveau 1",
@@ -55,14 +63,14 @@
     "iconClassName": "fa-solid fa-briefcase"
   },
   {
-    "id": 8,
+    "id": 6,
     "date": "2016 - 2017",
     "title": "Concours professeur des écoles",
     "subtitle": "En candidat libre, en parallèle de mon temps plein. Ecrit obtenu uniquement",
     "iconClassName": "fa-solid fa-graduation-cap"
   },
   {
-    "id": 9,
+    "id": 5,
     "date": "2006 - 2014",
     "title": "Educateur sportif",
     "subtitle": "Football, Basket, Multisport, éveil corporel",
@@ -70,7 +78,7 @@
     "iconClassName": "fa-solid fa-briefcase"
   },
   {
-    "id": 10,
+    "id": 4,
     "date": "2003 - 2020",
     "title": "Animateur ALSH",
     "subtitle": "Accueil de loisirs sans hébergement",
@@ -78,7 +86,7 @@
     "iconClassName": "fa-solid fa-briefcase"
   },
   {
-    "id": 11,
+    "id": 3,
     "date": "2005 - 2007",
     "title": "Concours CAPEPS",
     "subtitle": "Certificat d'aptitude au professorat d'éducation physique et sportive",
@@ -86,14 +94,14 @@
     "iconClassName": "fa-solid fa-graduation-cap"
   },
   {
-    "id": 12,
+    "id": 2,
     "date": "2005",
     "title": "Licence STAPS",
     "subtitle": "Spécialité éducation et motricité",
     "iconClassName": "fa-solid fa-graduation-cap"
   },
   {
-    "id": 13,
+    "id": 1,
     "date": "2001",
     "title": "Bac S",
     "subtitle": "Bac scientifique",
